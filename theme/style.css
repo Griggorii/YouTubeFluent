@@ -490,7 +490,7 @@ ytcp-button[type=filled] {
 }
 /*yt button border radius*/
 ytd-button-renderer.style-destructive[is-paper-button] {
-	border-radius: 8px !important;
+	border-radius: 14px !important;
 }
 /*endscreen video suggestion live margin*/
 span.ytp-videowall-still-info-live {
@@ -1019,7 +1019,7 @@ div#container {
 }
 /*button border radius*/
 ytd-button-renderer #button.ytd-button-renderer {
-	border-radius: 8px !important;
+	border-radius: 16px !important;
 }
 /*video (playlist) border radius*/
 ytd-playlist-video-renderer {
@@ -1067,7 +1067,7 @@ yt-img-shadow#avatar {
 	border-radius: 10px !important;
 }
 yt-img-shadow.ytd-mini-channel-renderer {
-	border-radius: 8px !important;
+	border-radius: 14px !important;
 }
 yt-img-shadow.ytd-topbar-menu-button-renderer {
 	border-radius: 10px !important;
