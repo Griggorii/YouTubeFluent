@@ -43,4 +43,4 @@ Original Author:
 [Simon Galver](https://userstyles.org/users/854680 "Simon Galver") - 
 
 
-**01/08/2022.**
+**03/10/2022.** попытка приблизить к дамповому состоянию отсюда https://github.com/Griggorii/Chromium_OS_77/blob/master/Griggorii_api_new%20-%20YouTube.html.zip
