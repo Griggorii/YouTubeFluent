@@ -1134,6 +1134,7 @@ ytd-miniplayer, .video.ytd-miniplayer, #card.ytd-miniplayer {
 	border-radius: 13px !important;
 }
 /*miniplayer container border radius*/
+/*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 14px https://github.com/Griggorii/YouTubeFluent/edit/main/theme/style.css */
 #player-container.ytd-miniplayer {
 	border-radius: 13px !important;
 }
@@ -1144,15 +1145,15 @@ ytd-miniplayer[animate-miniplayer] #expander-space.ytd-miniplayer {
 	backdrop-filter: blur(10px) !important;
 }
 tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] {
-	border-radius: 8px !important;
+	border-radius: 14px !important;
 }
 tp-yt-paper-button.ytd-subscribe-button-renderer {
 
-	border-radius: 8px !important;
+	border-radius: 14px !important;
 }
 #contentWrapper.tp-yt-iron-dropdown > * {
-	border-radius: 10px !important;
-	backdrop-filter: blur(10px) !important;
+	border-radius: 14px !important;
+	backdrop-filter: blur(14px) !important;
 }
 #tooltip.tp-yt-paper-tooltip {
 	border-radius: 10px !important;
