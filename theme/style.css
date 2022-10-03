@@ -13,14 +13,14 @@
 /* SIDEBAR CONFIG */
   #contentContainer.tp-yt-app-drawer[opened] {
    background: #18181818 !important;/*CHANGE THIS TO APPLY COLOR TO SIDEBAR*/
-   backdrop-filter: blur(10px) !important;
-   border-radius: 10px !important;
+   backdrop-filter: blur(2px) !important;
+   border-radius: 2px !important;
   }
 /*Caption Window BG and Blur*/
   .caption-window {
    background-color: rgba(50, 50, 50, .2) !important;/*CHANGE THE DECIMAL VALUE TO ADJUST THE DARKNESS OF THE CAPTION WINDOW*/
-   backdrop-filter: blur(10px) !important;
-   border-radius: 10px !important;
+   backdrop-filter: blur(2px) !important;
+   border-radius: 2px !important;
   }
 /*Dark search text 
   .sbsb_d{
@@ -32,19 +32,19 @@
   }
 /*Scrollbar theme by https://github.com/luandersonn*/
   body::-webkit-scrollbar {
-   width: 10px;
+   width:16px;
    transition: 1.0s;
   }
   body::-webkit-scrollbar-thumb {
-   background-color: rgba(127, 127, 127, 0.6);
-   background-clip: padding-box;
+   background-color:#0f0f0f;
+   background-clip:content-box;
    border: 2px solid transparent;
-   border-radius: 5px;
+   border-radius:8px;
    transition: 1.0s;
   }
   body::-webkit-scrollbar-thumb:vertical:hover,
   body::-webkit-scrollbar-thumb:horizontal:hover {
-   background-color: rgb(110, 110, 110);
+   background-color:hsl(0,0%,67%);
    transition: 0.3s;
   }
   body::-webkit-scrollbar-track {
@@ -76,7 +76,7 @@ ytd-thumbnail.ytd-rich-grid-media:before {
 }
 /*feed filter blur transition when hover*/
 iron-selector{
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(2px);
 	transition: none;
 }
 /*feed filter space remove*/
@@ -109,20 +109,20 @@ ytd-feed-filter-chip-bar-renderer {
 }
 /*menu checkbox*/
 .ytp-menuitem-toggle-checkbox {
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 }
 /*endscreen subscribe card*/
 .subscribecard-endscreen .ytp-subscribe-card {
 	background: rgba(0, 0, 0, 0.75) !important;
 	border-radius: 15px !important;
-	backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur(2px) !important;
 }
 /*endscreen link icon border radius / backdrop filter*/
 .ytp-ce-expanding-icon {
 	background-color: #2323237a !important;
 	border-radius: 6px !important;
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur(2px) !important;
+	-webkit-backdrop-filter: blur(2px) !important;
 }
 /*movie bg delete*/
 ytd-thumbnail.ytd-rich-movie-renderer:before {
@@ -132,8 +132,8 @@ ytd-thumbnail.ytd-rich-movie-renderer:before {
 .ytp-ce-video-duration {
 	background-color: rgba(53, 53, 53, 0.49) !important;
 	border-radius: 7px !important;
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur(2px) !important;
+	-webkit-backdrop-filter: blur(2px) !important;
 }
 /*next video preview text bg delete*/
 .ytp-tooltip.ytp-text-detail.ytp-preview .ytp-tooltip-text {
@@ -151,7 +151,8 @@ ytd-thumbnail.ytd-rich-movie-renderer:before {
 ytd-thumbnail-overlay-hover-text-renderer {
 	background-color: rgba(0, 0, 0, 0.5) !important;
 }
-/*channel menu item border radius* | fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme/style.css /
+/*channel menu item border radius*/
+/*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme/style.css */
 ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-item.list-item.style-scope.ytd-account-settings {
 	border-radius: 2px !important;
 }
@@ -161,8 +162,8 @@ ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-fl
 }
 /*info card teaser backdrop filter*/
 .ytp-cards-teaser {
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur(2px) !important;
+	-webkit-backdrop-filter: blur(2px) !important;
 	border-radius: 7px !important;
 }
 /*info card teaser background / border radius*/
@@ -178,12 +179,12 @@ ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-fl
 /*buy button background / text color*/
 #button.yt-live-chat-message-buy-flow-renderer, yt-button-renderer.style-primary[is-paper-button], #action.ytd-action-companion-ad-renderer {
 	background-color: rgba(0, 149, 255, 0.26) !important;
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 	color: #3ea6ff !important;
 }
 /*yt original header border radius*/
 ytd-watch-card-rich-header-renderer {
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 	margin-bottom: 5px !important;
 }
 /*yt button border radius*/
@@ -192,8 +193,8 @@ ytd-call-to-action-button-renderer[button-color=OPAQUE_BLACK] #overlay-button.yt
 }
 /*bottom right info renderer*/
 paper-toast#toast {
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur(2px) !important;
+	-webkit-backdrop-filter: blur(2px) !important;
 	background: rgba(50, 50, 50, 0.50) !important;
 }
 /*border delete*/
@@ -207,7 +208,7 @@ ytd-two-column-browse-results-renderer.style-scope.ytd-browse, ytd-search.style-
 /*live chat info card*/
 #card.yt-live-chat-viewer-engagement-message-renderer {
 	background-color: #272727;
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 }
 /*filter text fix*/
 #label.ytd-search-filter-renderer {
@@ -220,8 +221,8 @@ ytd-two-column-browse-results-renderer.style-scope.ytd-browse, ytd-search.style-
 }
 /*menu backdrop filter (channel / upload video / ...)*/
 ytd-multi-page-menu-renderer[background-color-update], ytd-menu-popup-renderer, #contentWrapper.iron-dropdown>* {
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur(2px) !important;
+	-webkit-backdrop-filter: blur(2px) !important;
 }
 /*show more button border delete / color*/
 paper-button.style-scope.yt-next-continuation {
@@ -237,8 +238,8 @@ yt-formatted-string.style-scope.yt-next-continuation {
 /*playlist overlay backdrop filter*/
 ytd-thumbnail-overlay-side-panel-renderer {
 	background: rgba(50, 50, 50, 0.30) !important;
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur(2px) !important;
+	-webkit-backdrop-filter: blur(2px) !important;
 	margin-bottom: -2px !important;
 	border-radius: 0px 12px 12px 0px;
 }
@@ -271,8 +272,8 @@ ytd-post-renderer[uses-compact-lockup_] {
 /*endscreen playlist count backdrop filter*/
 .ytp-ce-playlist-count {
 	background-color: rgba(0, 0, 0, 0.15) !important;
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur(2px) !important;
+	-webkit-backdrop-filter: blur(2px) !important;
 	border-radius: 0px 0px 10px 10px;
 }
 /*outline delete*/
@@ -282,7 +283,7 @@ ytd-post-renderer[uses-compact-lockup_] {
 /*view email button border radius*/
 ytd-button-renderer[is-paper-button]{
 	margin-left: -16px;
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 }
 /*sidebar width*/
 #contentContainer.app-drawer {
@@ -291,7 +292,7 @@ ytd-button-renderer[is-paper-button]{
 }
 /*sidebar hover border radius*/
 .ytd-guide-section-renderer #endpoint:hover {
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 }
 /*sidebar selected border radius*/
 ytd-guide-entry-renderer[active] {
@@ -339,12 +340,12 @@ ytd-primetime-promo-renderer.ytd-rich-section-renderer, ytd-inline-survey-render
 }
 /*survey checkbox / title container border radius*/
 paper-checkbox.style-scope.ytd-checkbox-survey-option-renderer {
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 }
 /*survey checkbox / title container border radius / color*/
 ytd-checkbox-survey-option-renderer.ytd-inline-survey-renderer {
 	background-color: #44444436 !important;
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 }
 /*survey expanded container border radius / color / padding*/
 ytd-inline-survey-renderer[expanded] #dismissable.ytd-inline-survey-renderer {
@@ -382,11 +383,11 @@ ytd-video-secondary-info-renderer {
 /*[[pbvs]]*/
 /*dropdown menu border radius*/
 paper-item.style-scope.ytd-menu-navigation-item-renderer {
-	border-radius: 10px !important;
+	border-radius: 2px !important;
 }
 /*video setting menu border radius*/
 .ytp-menuitem-icon {
-	border-radius: 10px 0px 0px 10px !important;
+	border-radius: 2px 0px 0px 10px !important;
 }
 /*video setting menu border radius*/
 .ytp-menuitem-content {
@@ -400,7 +401,7 @@ paper-item.style-scope.ytd-menu-navigation-item-renderer {
 }
 /*progress bar / next button preview border radius*/
 .ytp-tooltip.ytp-bottom, .ytp-tooltip-bg, a.ytp-next-button.ytp-button {
-	border-radius: 8px !important;
+	border-radius: 2px !important;
 	backdrop-filter: blur(10px) !important;
 	-webkit-backdrop-filter: blur(10px) !important;
 	background: rgba(50, 50, 50, 0.50);
