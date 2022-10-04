@@ -1,4 +1,4 @@
-Test theme
+Test theme replace flexy to curial or flat
 
 img#img {
     border-radius: 10px !important;
