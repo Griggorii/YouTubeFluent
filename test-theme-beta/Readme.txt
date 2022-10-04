@@ -71,3 +71,19 @@ ytd-button-renderer.style-primary[is-paper-button] {
 /*thumbnail border radius*/
 .yt-simple-endpoint {
 	border-radius: 14px !important;
+--------------------------------------------------------------------------------------
+#voice-search-button.ytd-masthead {
+	border-radius: 16px !important;
+
+#voice-search-button.ytd-masthead {
+	border-radius: 20px !important;
+
+--------------------------------------------------------------------------------------
+
+/*searchbox border radius*/
+#search-icon-legacy.ytd-searchbox {
+	border-radius: 0px 10px 10px 0px !important;
+
+/*searchbox border radius*/
+#search-icon-legacy.ytd-searchbox {
+	border-radius: 0px 18px 18px 0px !important;
