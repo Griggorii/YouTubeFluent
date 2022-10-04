@@ -29,7 +29,7 @@ img#img {
 
 /*thumbnail border radius*/
 img#img {
-	border-radius: 20px !important;
+	border-radius: 24px !important;
 }
 
 ---------------------------------------------------------------------
