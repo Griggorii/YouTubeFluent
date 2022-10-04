@@ -62,4 +62,12 @@ ytd-button-renderer.style-primary[is-paper-button] {
 ytd-button-renderer.style-primary[is-paper-button] {
 	border-radius: 20px !important;
 
+------------------------------------------------------------------------------
 
+/*thumbnail border radius*/
+.yt-simple-endpoint {
+	border-radius: 8px !important;
+
+/*thumbnail border radius*/
+.yt-simple-endpoint {
+	border-radius: 14px !important;

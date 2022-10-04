@@ -1050,7 +1050,7 @@ paper-button.ytd-subscribe-button-renderer {
 }
 /*thumbnail border radius*/
 .yt-simple-endpoint {
-	border-radius: 8px !important;
+	border-radius: 14px !important;
 }
 /*↓rounded square avatars↓*/
 yt-img-shadow#author-photo {
