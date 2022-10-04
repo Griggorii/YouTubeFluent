@@ -1,10 +1,12 @@
+V2 https://www.youtube.com/watch?v=moKsRRdab2I
+
 ---
 
 <h3 align="center">YouTube Fluent Theme</h3>
 
 <p align="center">
-    <a href="https://www.youtube.com/channel/UCbfGHhyeHpKXF5rl1cRfvbg?sub_confirmation=1">
-      <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://github-readme-youtube-stats.herokuapp.com/subscribers/index.php?id=UCbfGHhyeHpKXF5rl1cRfvbg&key=AIzaSyDvBOxP4M5Ygutbku6_3whU2YR6xV9KKV8&style=for-the-badge&color=red&labelColor=ce4630&label=Subscribers"/></a> 
+    <a href="https://www.youtube.com/channel/UC6WtVfU5gi2CQ4ionzbz1CQ?sub_confirmation=1">
+      <img alt="youtube subscribers" title="Subscribe to griggorii editor YouTube channel" src="https://github-readme-youtube-stats.herokuapp.com/subscribers/index.php?id=UCbfGHhyeHpKXF5rl1cRfvbg&key=AIzaSyDvBOxP4M5Ygutbku6_3whU2YR6xV9KKV8&style=for-the-badge&color=red&labelColor=ce4630&label=Subscribers"/></a>
     <a href="https://www.youtube.com/channel/UCipSxT7a3rn81vGLw9lqRkg">
       <img alt="youtube views" title="YouTube views" src="https://github-readme-youtube-stats.herokuapp.com/views/index.php?id=UCbfGHhyeHpKXF5rl1cRfvbg&key=AIzaSyDvBOxP4M5Ygutbku6_3whU2YR6xV9KKV8&label=View+Count&style=for-the-badge&color=blue&labelColor=0b689d"/></a>
   <a href="https://discord.gg/cPKc5B6Gnv" alt="Dev Pro Tips Discussion & Support Server">
