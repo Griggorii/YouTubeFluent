@@ -87,3 +87,11 @@ ytd-button-renderer.style-primary[is-paper-button] {
 /*searchbox border radius*/
 #search-icon-legacy.ytd-searchbox {
 	border-radius: 0px 18px 18px 0px !important;
+
+-------------------------------------------------------------------
+
+yt-img-shadow#avatar {
+	border-radius: 8px !important;
+
+yt-img-shadow#avatar {
+	border-radius: 20px !important;
