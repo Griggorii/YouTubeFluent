@@ -756,7 +756,7 @@ ytd-movie-offer-module-renderer.style-scope.ytd-watch-next-secondary-results-ren
 }
 /*ytd button border radius*/
 ytd-button-renderer.style-primary[is-paper-button] {
-	border-radius: 7px !important;
+	border-radius: 20px !important;
 }
 /*show more button yt feed border radius*/
 ytd-button-renderer#show-more-button {
