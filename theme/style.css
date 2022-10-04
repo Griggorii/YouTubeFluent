@@ -173,12 +173,13 @@ ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-fl
 	border: none !important;
 }
 /*info card teaser text color*/
+/*griggorii fix color #606060 black teaser text color*/
 .ytp-cards-teaser .ytp-cards-teaser-text {
-	color: #fff !important;
+	color: #606060 !important;
 }
 /*buy button background / text color*/
 #button.yt-live-chat-message-buy-flow-renderer, yt-button-renderer.style-primary[is-paper-button], #action.ytd-action-companion-ad-renderer {
-	background-color: rgba(0, 149, 255, 0.26) !important;
+	background-color: rgba(0, 149, 256, 0.26) !important;
 	border-radius: 2px !important;
 	color: #3ea6ff !important;
 }
@@ -990,7 +991,7 @@ ytd-watch-flexy[flexy_][js-panel-height_] #chat.ytd-watch-flexy {
 /*join button / ... background color / border radius*/
 ytd-button-renderer.style-suggestive[is-paper-button] paper-button.ytd-button-renderer {
 	border: none !important;
-	background-color: rgba(0, 149, 255, 0.26) !important;
+	background-color: rgba(0, 149, 256, 0.26) !important;
 	padding: 10px 14px !important;
 }
 /*ytd clarification box (public broadcast / ...)*/
@@ -1148,7 +1149,6 @@ tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] {
 	border-radius: 14px !important;
 }
 tp-yt-paper-button.ytd-subscribe-button-renderer {
-
 	border-radius: 14px !important;
 }
 #contentWrapper.tp-yt-iron-dropdown > * {
