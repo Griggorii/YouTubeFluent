@@ -1069,7 +1069,7 @@ yt-img-shadow.ytd-channel-renderer {
 	border-radius: 20px !important;
 }
 yt-img-shadow#avatar {
-	border-radius: 8px !important;
+	border-radius: 20px !important;
 }
 #avatar.ytd-active-account-header-renderer {
 	border-radius: 16px !important;
