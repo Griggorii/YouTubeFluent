@@ -42,4 +42,14 @@ ytd-button-renderer #button.ytd-button-renderer {
 ytd-button-renderer #button.ytd-button-renderer {
 	border-radius: 20px !important;
 
+-----------------------------------------------------------------------
+
+/*yt button border radius*/
+ytd-button-renderer.style-destructive[is-paper-button] {
+	border-radius: 14px !important;
+
+/*yt button border radius*/
+ytd-button-renderer.style-destructive[is-paper-button] {
+	border-radius: 20px !important;
+
 
