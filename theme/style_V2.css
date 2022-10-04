@@ -491,7 +491,7 @@ ytcp-button[type=filled] {
 }
 /*yt button border radius*/
 ytd-button-renderer.style-destructive[is-paper-button] {
-	border-radius: 14px !important;
+	border-radius: 20px !important;
 }
 /*endscreen video suggestion live margin*/
 span.ytp-videowall-still-info-live {
