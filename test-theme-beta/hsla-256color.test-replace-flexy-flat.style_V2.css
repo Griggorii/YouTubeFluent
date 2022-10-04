@@ -802,7 +802,7 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string {
 }
 /*thumbnail border radius*/
 img#img {
-	border-radius: 16px !important;
+	border-radius: 20px !important;
 }
 /*save to (playlist) container backdrop filter*/
 paper-dialog.style-scope.ytd-popup-container {
@@ -1027,7 +1027,7 @@ div#container {
 }
 /*button border radius*/
 ytd-button-renderer #button.ytd-button-renderer {
-	border-radius: 16px !important;
+	border-radius: 20px !important;
 }
 /*video (playlist) border radius*/
 ytd-playlist-video-renderer {

@@ -19,3 +19,27 @@ search youtube new size border-radius: 18px 0px 0px 18px
 Original
 
 border-radius: 10px 0px 0px 10px !important;
+
+-----------------------------------------------------------------------
+
+/*thumbnail border radius*/
+img#img {
+	border-radius: ?px !important;
+}
+
+/*thumbnail border radius*/
+img#img {
+	border-radius: 20px !important;
+}
+
+---------------------------------------------------------------------
+
+/*button border radius*/
+ytd-button-renderer #button.ytd-button-renderer {
+	border-radius: 16px !important;
+
+/*button border radius*/
+ytd-button-renderer #button.ytd-button-renderer {
+	border-radius: 20px !important;
+
+
