@@ -298,12 +298,12 @@ ytd-button-renderer[is-paper-button]{
 }
 /*sidebar selected border radius*/
 ytd-guide-entry-renderer[active] {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 
 }
 /*sidebar selected border radius*/
 paper-item.style-scope.ytd-guide-entry-renderer::before {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 ytd-app {
 	--app-drawer-width: 245px !important;
@@ -410,7 +410,7 @@ paper-item.style-scope.ytd-menu-navigation-item-renderer {
 }
 /*(channel) community video box border radius*/
 ytd-video-renderer.style-scope.ytd-backstage-post-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*(channel) community thread border radius*/
 ytd-backstage-post-thread-renderer[enable-borders-on-community] {
@@ -422,11 +422,11 @@ ytd-backstage-post-thread-renderer[enable-borders-on-community] {
 }
 /*dropdown menu highlighter border radius*/
 paper-item.style-scope.ytd-menu-service-item-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*dropdown menu highlighter border radius*/
 paper-item.style-scope.yt-dropdown-menu {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*channel header bg color*/
 #channel-container.ytd-c4-tabbed-header-renderer, #tabs-container.ytd-c4-tabbed-header-renderer {
@@ -471,7 +471,7 @@ td-merch-shelf-renderer[align-with-description][watch-color-update] {
 }
 /*merchandise container border radius*/
 ytd-merch-shelf-renderer.style-scope.ytd-watch-curial {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	border: none;
 }
 /*merchandise highlighter*/
@@ -480,19 +480,19 @@ ytd-merch-shelf-item-renderer.style-scope.ytd-merch-shelf-renderer {
 }
 /*infocard border radius*/
 ytp-cards-teaser-box {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*social media links (channel)*/
 #primary-links.ytd-c4-tabbed-header-renderer, #secondary-links.ytd-c4-tabbed-header-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	margin-right: 10px;
 }
 ytcp-button[type=filled] {
-	border-radius: 10px;
+	border-radius: 16px;
 }
 /*yt button border radius*/
 ytd-button-renderer.style-destructive[is-paper-button] {
-	border-radius: 14px !important;
+	border-radius: 20px !important;
 }
 /*endscreen video suggestion live margin*/
 span.ytp-videowall-still-info-live {
@@ -519,7 +519,7 @@ span.ytp-videowall-still-info-title {
 	margin-bottom: 7px !important;
 	margin-right: 7px !important;
 	margin-left: 7px !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*thumbnail scale effect*/
 ytd-thumbnail, #thumbnail.ytd-playlist-thumbnail, .ytp-show-tiles .ytp-videowall-still {
@@ -563,7 +563,7 @@ ytd-video-preview {
 }
 ytd-video-preview[active] {
 	backdrop-filter: blur(10px) !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 .sbdd_c {
 	display: none !important;
@@ -613,19 +613,19 @@ paper-button.ytd-subscribe-button-renderer[subscribed] {
 }
 /*endscreen playlist border radius top left*/
 .ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-top-left-quad {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*endscreen playlist border radius top right*/
 .ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-top-right-quad {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*endscreen playlist border radius bottom right*/
 .ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-bottom-right-quad {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*endscreen playlist border radius bottom left*/
 .ytp-ce-element.ytp-ce-playlist.ytp-ce-element-show.ytp-ce-bottom-left-quad {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*endscreen website border radius top left*/
 .ytp-ce-element.ytp-ce-website.ytp-ce-element-show.ytp-ce-top-left-quad {
@@ -649,7 +649,7 @@ paper-button.ytd-subscribe-button-renderer[subscribed] {
 }
 /*gaming info container border radius*/
 ytd-rich-metadata-renderer.style-scope.ytd-rich-metadata-row-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*live chat bottom background color*/
 yt-live-chat-message-input-renderer {
@@ -661,11 +661,11 @@ yt-live-chat-message-input-renderer {
 }
 /*live chat bar delete*/
 yt-live-chat-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*channel sub button (in video / bottom right) border radius / backdrop filter / color*/
 .iv-branding .branding-context-container-inner {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	backdrop-filter: blur(10px) !important;
 	-webkit-backdrop-filter: blur(10px) !important;
 	background: hsla(50, 50, 50, 0.50) !important;
@@ -676,14 +676,14 @@ yt-live-chat-renderer {
 }
 /*info card image border radius*/
 .iv-card-image {
-	border-radius: 10px 10px 0px 0px !important;
+	border-radius: 16px 10px 0px 0px !important;
 }
 /*info card background color / border radius*/
 .iv-card {
 	background: hsla(50, 50, 50, 0.50) !important;
 	backdrop-filter: blur(10px) !important;
 	-webkit-backdrop-filter: blur(10px) !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*info card text color*/
 .iv-card h2 {
@@ -721,7 +721,7 @@ a.ytp-ce-channel-title.ytp-ce-link {
 	backdrop-filter: blur(10px) !important;
 	-webkit-backdrop-filter: blur(10px) !important;
 	background: hsla(50, 50, 50, 0.50) !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	box-shadow: none !important;
 }
 /*endscreen website header color*/
@@ -730,37 +730,37 @@ a.ytp-ce-channel-title.ytp-ce-link {
 }
 /*endscreen video border radius top left*/
 .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-bottom-left-quad {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*endscreen video border radius top right*/
 .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-bottom-right-quad {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*endscreen video border radius bottom left*/
 .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*endscreen video border radius bottom right*/
 .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-right-quad {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 a#wide-clickable-area {
 	border-radius: 9px !important;
 }
 /*live chat / ... header*/
 div#header {
-	border-radius: 10px 10px 0px 0px !important;
+	border-radius: 16px 10px 0px 0px !important;
 }
 ytd-movie-offer-module-renderer.style-scope.ytd-watch-next-secondary-results-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*ytd button border radius*/
 ytd-button-renderer.style-primary[is-paper-button] {
-	border-radius: 7px !important;
+	border-radius: 20px !important;
 }
 /*show more button yt feed border radius*/
 ytd-button-renderer#show-more-button {
-	border-radius: 10px;
+	border-radius: 16px;
 }
 /*show more button yt feed transparent border*/
 #show-more-button.ytd-rich-shelf-renderer {
@@ -771,7 +771,7 @@ ytd-rich-shelf-renderer {
 	border-top: #f000;
 }
 ytd-post-renderer.style-scope.ytd-rich-item-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*thumbnail border radius*/
 a#thumbnail {
@@ -802,7 +802,7 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string {
 }
 /*thumbnail border radius*/
 img#img {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*save to (playlist) container backdrop filter*/
 paper-dialog.style-scope.ytd-popup-container {
@@ -817,23 +817,23 @@ paper-dialog.style-scope.ytd-popup-container {
 
 /*theme toggle highlighter border radius*/
 ytd-toggle-theme-compact-link-renderer.style-scope.yt-multi-page-menu-section-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*channel menu highlighter border radius*/
 ytd-compact-link-renderer.style-scope.yt-multi-page-menu-section-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*notification menu highlighter border radius*/
 ytd-notification-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*live chat header border radius*/
 yt-live-chat-header-renderer.style-scope.yt-live-chat-renderer {
-	border-radius: 10px 10px 0px 0px !important;
+	border-radius: 16px 10px 0px 0px !important;
 }
 /*info popup backdrop filter*/
 #tooltip.paper-tooltip {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	padding: 4px 8px !important;
 	margin: 12px 8px !important;
 	backdrop-filter: blur(10px) !important;
@@ -843,7 +843,7 @@ yt-live-chat-header-renderer.style-scope.yt-live-chat-renderer {
 .ytp-popup, .html5-video-info-panel {
 	backdrop-filter: blur(10px) !important;
 	-webkit-backdrop-filter: blur(10px) !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	background: hsla(50, 50, 50, 0.30) !important;
 }
 /*searchbar predictions backdrop filter*/
@@ -851,7 +851,7 @@ yt-live-chat-header-renderer.style-scope.yt-live-chat-renderer {
 	margin-top: 5px !important;
 	border: 0 !important;
 	background: hsla(50, 50, 50, 0.3) !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	backdrop-filter: blur(10px) !important;
 	-webkit-backdrop-filter: blur(10px) !important;
 }
@@ -903,7 +903,7 @@ ytd-mini-guide-entry-renderer[background-color-update], ytd-mini-guide-entry-ren
 }
 /*dropdown menu / notification center / ... backdrop filter*/
 ytd-multi-page-menu-renderer[background-color-update], paper-listbox, yt-confirm-dialog-renderer[dialog][dialog][dialog], paper-toast.yt-notification-action-renderer, paper-dialog, yt-report-form-modal-renderer[dialog][dialog][dialog], ytd-hotkey-dialog-renderer[dialog][dialog][dialog], paper-listbox.yt-dropdown-menu {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	background: hsla(50, 50, 50, 0.40) !important;
 	border: 0 !important;
 	overflow: hidden !important;
@@ -911,11 +911,11 @@ ytd-multi-page-menu-renderer[background-color-update], paper-listbox, yt-confirm
 /*menu shadow / border radius*/
 ytd-multi-page-menu-renderer[background-color-update], ytd-menu-popup-renderer, #contentWrapper.iron-dropdown>* {
 	box-shadow: 0px 10px 50px 0px hsla(0, 0, 0, 0.75) !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*notification menu video border radius / shadow*/
 .thumbnail-container.ytd-notification-renderer, .thumbnail-container.ytd-comment-video-thumbnail-header-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	box-shadow: 0px 0 20px 0px hsla(0, 0, 0, 0.5) !important;
 }
 /*channel menu header*/
@@ -924,7 +924,7 @@ ytd-active-account-header-renderer {
 }
 /*share center / ... border radius*/
 paper-dialog, ytd-sponsorships-offer-renderer[dialog][dialog][dialog], ytd-sponsorships-offer-with-video-renderer[dialog][dialog][dialog], .dropdown-content.paper-menu-button {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*menu background transition (closed)*/
 iron-overlay-backdrop {
@@ -956,7 +956,7 @@ ytd-sponsorships-offer-with-video-renderer[dialog][dialog][dialog] {
 	-webkit-backdrop-filter: blur(10px) !important;
 	border: 0;
 	overflow: hidden;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*live chat box hidden*/
 #description-text.ytd-report-details-form-renderer, #card.yt-live-chat-paid-message-renderer {
@@ -973,11 +973,11 @@ ytd-engagement-panel-section-list-renderer[watch-color-update], ytd-playlist-pan
 }
 /*socialblade border radius*/
 #socialblade, #socialblade-tab paper-button, #socialblade-tab paper-button {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*socialblade border radius*/
 #sb-heading {
-	border-radius: 10px 10px 0px 0px !important;
+	border-radius: 16px 10px 0px 0px !important;
 }
 /*socialblade border radius*/
 #sb-data-pages {
@@ -985,15 +985,15 @@ ytd-engagement-panel-section-list-renderer[watch-color-update], ytd-playlist-pan
 }
 /*live chat header border radius*/
 #yt-live-chat-header-renderer.style-scope.yt-live-chat-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*live chat hide button border radius*/
 ytd-live-chat-frame[watch-color-update] #show-hide-button.ytd-live-chat-frame>ytd-toggle-button-renderer.ytd-live-chat-frame {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*live chat border radius*/
 ytd-watch-curial[curial_][js-panel-height_] #chat.ytd-watch-curial {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*join button / ... background color / border radius*/
 ytd-button-renderer.style-suggestive[is-paper-button] paper-button.ytd-button-renderer {
@@ -1027,11 +1027,11 @@ div#container {
 }
 /*button border radius*/
 ytd-button-renderer #button.ytd-button-renderer {
-	border-radius: 16px !important;
+	border-radius: 20px !important;
 }
 /*video (playlist) border radius*/
 ytd-playlist-video-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*sub button border radius*/
 paper-button.ytd-subscribe-button-renderer {
@@ -1039,18 +1039,18 @@ paper-button.ytd-subscribe-button-renderer {
 }
 /*searchbox border radius*/
 #search-icon-legacy.ytd-searchbox {
-	border-radius: 0px 10px 10px 0px !important;
+	border-radius: 0px 18px 18px 0px !important;
 }
 #items.yt-horizontal-list-renderer>ytd-post-renderer.yt-horizontal-list-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*searchbox border radius*/
 #container.ytd-searchbox {
-	border-radius: 10px 0px 0px 10px !important;
+	border-radius: 18px 0px 0px 18px !important;
 }
 /*thumbnail border radius*/
 .yt-simple-endpoint {
-	border-radius: 8px !important;
+	border-radius: 14px !important;
 }
 /*↓rounded square avatars↓*/
 yt-img-shadow#author-photo {
@@ -1069,16 +1069,16 @@ yt-img-shadow.ytd-channel-renderer {
 	border-radius: 20px !important;
 }
 yt-img-shadow#avatar {
-	border-radius: 8px !important;
+	border-radius: 20px !important;
 }
 #avatar.ytd-active-account-header-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 yt-img-shadow.ytd-mini-channel-renderer {
 	border-radius: 14px !important;
 }
 yt-img-shadow.ytd-topbar-menu-button-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 yt-img-shadow.ytd-channel-avatar-editor {
 	border-radius: 20px !important;
@@ -1102,17 +1102,17 @@ yt-img-shadow.style-scope.ytd-grid-channel-renderer.no-transition {
 	border-radius: 20px !important;
 }
 yt-img-shadow.ytd-backstage-image-renderer {
-	--yt-img-border-radius: 10px !important;
+	--yt-img-border-radius: 16px !important;
 }
 ytd-comment-renderer:not([comment-style=backstage-comment])[is-reply] #author-thumbnail.ytd-comment-renderer yt-img-shadow.ytd-comment-renderer, ytd-comment-renderer[is-creator-reply] #author-thumbnail.ytd-comment-renderer yt-img-shadow.ytd-comment-renderer {
 	width: 30px !important;
 	height: 30px !important;
 }
 .ytp-flyout-cta .ytp-flyout-cta-icon {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 a.ytp-title-channel-logo {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 /*movie player border radius / shadow*/
 .ytd-video-preview, .ytp-small-mode {
@@ -1163,28 +1163,28 @@ tp-yt-paper-button.ytd-subscribe-button-renderer {
 	backdrop-filter: blur(14px) !important;
 }
 #tooltip.tp-yt-paper-tooltip {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 yt-interaction.circular .fill.yt-interaction, yt-interaction.circular .stroke.yt-interaction {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 #voice-search-button.ytd-masthead {
-	border-radius: 10px !important;
+	border-radius: 20px !important;
 	background-color: #0000003d !important;
 }
 tp-yt-paper-dialog {
 		background: hsla(0, 0, 0, 0.1) !important;;
 	backdrop-filter: blur(10px) !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 .ytp-exp-ppp-update .ytp-paid-content-overlay-link {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	backdrop-filter: blur(10px) !important;
 	background-color: transparent !important;
 }
 
 tp-yt-paper-listbox {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	backdrop-filter: blur(10px) !important;
 	background: none !important;
 }
@@ -1198,7 +1198,7 @@ tp-yt-iron-overlay-backdrop.opened {
 	border-radius: 13px !important;
 }
 .scroll-button.yt-third-party-share-target-section-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 #checkbox.tp-yt-paper-checkbox {
 	border-radius: 5px !important;
@@ -1226,7 +1226,7 @@ yt-notification-action-renderer {
 	transform: translate3d(0, 0, 0);
 	background: transparent !important;
 	backdrop-filter: blur(10px) !important;
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	-webkit-backdrop-filter: blur(10px) !important;
 	transition-duration: 200ms !important;
 }
@@ -1249,7 +1249,7 @@ ytd-alert-with-button-renderer[is-displayed] {
 }
 /*Chapter Preview*/
 ytd-expandable-metadata-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 }
 ytd-macro-markers-list-item-renderer.ytd-horizontal-card-list-renderer {
 	border-radius: 12px !important;
@@ -1266,7 +1266,7 @@ ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAY
 	border-radius: 6px !important;
 }
 ytd-thumbnail-overlay-time-status-renderer {
-	border-radius: 10px !important;
+	border-radius: 16px !important;
 	padding: 6px 6px !important;
 	background-color: rgb(0 0 0 / 35%) !important;
 	backdrop-filter: blur(10px) !important;
