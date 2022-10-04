@@ -1046,7 +1046,7 @@ paper-button.ytd-subscribe-button-renderer {
 }
 /*searchbox border radius*/
 #container.ytd-searchbox {
-	border-radius: 16px 0px 0px 10px !important;
+	border-radius: 18px 0px 0px 18px !important;
 }
 /*thumbnail border radius*/
 .yt-simple-endpoint {
