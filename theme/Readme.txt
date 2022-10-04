@@ -1,5 +1,20 @@
 Test theme replace flexy to curial or flat
 
+thumbnail border radius default size 16px | V2 24px
+
+
+/*thumbnail border radius*/
+img#img {
+	border-radius: ?px !important;
+}
+
+/*thumbnail border radius*/
+img#img {
+	border-radius: 24px !important;
+}
+
+---------------------------------------------------------------------
+
 img#img {
     border-radius: 10px !important;
 
@@ -21,18 +36,6 @@ Original
 border-radius: 10px 0px 0px 10px !important;
 
 -----------------------------------------------------------------------
-
-/*thumbnail border radius*/
-img#img {
-	border-radius: ?px !important;
-}
-
-/*thumbnail border radius*/
-img#img {
-	border-radius: 24px !important;
-}
-
----------------------------------------------------------------------
 
 /*button border radius*/
 ytd-button-renderer #button.ytd-button-renderer {
