@@ -203,8 +203,9 @@ ytd-rich-shelf-renderer[is-show-more-hidden] #dismissable.ytd-rich-shelf-rendere
 	border-bottom: none !important;
 }
 /*yt background*/
+/*griggorii fix fix page youtube white*/ 
 ytd-two-column-browse-results-renderer.style-scope.ytd-browse, ytd-search.style-scope.ytd-page-manager, ytd-browse.style-scope.ytd-page-manager {
-	background: #191919 !important;
+	background: rgba(255, 255, 255, 0.7) !important;
 }
 /*live chat info card*/
 #card.yt-live-chat-viewer-engagement-message-renderer {
@@ -783,6 +784,12 @@ ytd-thumbnail.ytd-rich-grid-video-renderer:before {
 /*video title border radius fix*/
 #video-title {
 	border-radius: 0px !important;
+}
+#video-title.ytd-video-renderer {
+    color: #ffffff;
+}
+#video-title.ytd-rich-grid-media {
+    color: var(--yt-spec-text-primary);
 }
 /*video title border radius fix*/
 a.yt-simple-endpoint.style-scope.yt-formatted-string {
