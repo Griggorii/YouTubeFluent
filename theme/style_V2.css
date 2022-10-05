@@ -606,6 +606,11 @@ paper-button.ytd-subscribe-button-renderer[subscribed] {
 .badge.ytd-badge-supported-renderer {
     border-radius: 8px !important;
 }
+/*griggorii live green icon*/
+.badge-style-type-live-now-alternate.ytd-badge-supported-renderer {
+    background: #085d16 !important;
+    color: #ffffff !important;
+}
 /*channel name border radius fix*/
 #container.ytd-channel-name {
 	border-radius: 0px !important;
