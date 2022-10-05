@@ -25,6 +25,27 @@ img#img {
 
 ------------------------------------------------------------------
 
+/*searchbar predictions highlighter border radius*/
+.gsfs {
+	border-radius: 7px !important;
+	color: #e4e4e4 !important;
+
+/*searchbar predictions highlighter border radius*/
+.gsfs {
+	border-radius: 7px !important;
+	color: #060606 !important;
+
+
+
+
+
+
+
+
+
+
+
+
 search youtube new size border-radius: 18px 0px 0px 18px
 
 /*searchbox border radius*/
