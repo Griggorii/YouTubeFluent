@@ -2,6 +2,18 @@ Test theme replace flexy to curial or flat
 
 thumbnail border radius default size 16px | V2 24px
 
+---------------------------------------------------------------
+
+#button.ytd-toggle-button-renderer yt-icon.ytd-toggle-button-renderer+yt-formatted-string.ytd-toggle-button-renderer {
+	margin-left: var(--yt-string-icon-padding, 8px);
+	color: #ffffffa3 !important;
+
+/* Griggorii black font hsla fix*/
+#button.ytd-toggle-button-renderer yt-icon.ytd-toggle-button-renderer+yt-formatted-string.ytd-toggle-button-renderer {
+	margin-left: var(--yt-string-icon-padding, 8px);
+	color: #060606 !important;
+
+------------------------------------------------------------------------------
 
 /*thumbnail border radius*/
 img#img {

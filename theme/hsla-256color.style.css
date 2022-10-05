@@ -1272,9 +1272,10 @@ ytd-thumbnail-overlay-time-status-renderer {
 	background-color: rgb(0 0 0 / 35%) !important;
 	backdrop-filter: blur(10px) !important;
 }
+/* Griggorii black font hsla fix*/
 #button.ytd-toggle-button-renderer yt-icon.ytd-toggle-button-renderer+yt-formatted-string.ytd-toggle-button-renderer {
 	margin-left: var(--yt-string-icon-padding, 8px);
-	color: #ffffffa3 !important;
+	color: #060606 !important;
 }
 span.ytd-thumbnail-overlay-loading-preview-renderer{
 	border-radius: 8px !important;
