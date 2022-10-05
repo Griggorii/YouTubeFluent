@@ -796,9 +796,10 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string {
 	border-radius: 0px !important;
 }
 /*searchbar predictions highlighter border radius*/
+/*griggorii fix white serch black font*/
 .gsfs {
 	border-radius: 7px !important;
-	color: #e4e4e4 !important;
+	color: #060606 !important;
 }
 /*thumbnail border radius*/
 img#img {
