@@ -1321,3 +1321,12 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
    .yt-formatted-string[style-target="bold"] {
 	 font-weight: 400;
    }
+   /* Notify youtube 🔔 size griggorii fix */
+#contentWrapper > ytd-multi-page-menu-renderer > * {
+    outline: none;
+    box-sizing: border-box;
+    max-width: 350px;
+   }
+#contentWrapper > ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] {
+    width: 350px;   }
+   }
