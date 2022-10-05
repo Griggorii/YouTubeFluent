@@ -606,6 +606,10 @@ paper-button.ytd-subscribe-button-renderer[subscribed] {
 #container.ytd-channel-name {
 	border-radius: 0px !important;
 }
+/*channel name border radius fix*/
+#container.ytd-channel-name {
+	border-radius: 0px !important;
+}
 /*endscreen channel border radius*/
 .ytp-ce-channel, .ytp-ce-channel .ytp-ce-expanding-image, .ytp-ce-channel .ytp-ce-element-shadow {
 	border-radius: 17px !important;
