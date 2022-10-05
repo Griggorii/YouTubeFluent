@@ -2,7 +2,7 @@ V2
 
 https://www.youtube.com/watch?v=-bo-Z01os-s
 
-V2 hsla more rounded corners solved the problem of the main page of YouTube and filling with white, in case you want to enable a dark theme, then use a non-V2 version
+V2 hsla more rounded corners solved the problem of the main page of YouTube and filling with white, in case you want to enable a dark theme, then use a non-V2 hsla version
 
 ---
 
