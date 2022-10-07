@@ -1404,3 +1404,12 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
 #contentWrapper > ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] {
     width: 350px;   }
    }
+#button.ytd-toggle-button-renderer yt-icon.ytd-toggle-button-renderer+yt-formatted-string.ytd-toggle-button-renderer {
+    margin-left: var(--yt-string-icon-padding,8px);
+}
+ytd-toggle-button-renderer.style-default-active[is-paper-button][system-icons] {
+    color: #c53434 !important;
+}
+ytd-toggle-button-renderer.style-text[is-paper-button] {
+    color: #040ad8 !important;
+}
