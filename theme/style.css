@@ -1277,10 +1277,57 @@ ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAY
 	border-radius: 6px !important;
 }
 ytd-thumbnail-overlay-time-status-renderer {
-	border-radius: 10px !important;
+	border-radius: 24px !important;
 	padding: 6px 6px !important;
 	background-color: rgb(0 0 0 / 35%) !important;
 	backdrop-filter: blur(10px) !important;
+}
+   /* griggorii mini preview icons watch later add to playlist */
+yt-icon, .yt-icon-container.yt-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    fill: var(--iron-icon-fill-color,currentcolor);
+    stroke: var(--iron-icon-stroke-color,none);
+    width: var(--iron-icon-width,24px);
+    height: var(--iron-icon-height,24px);
+    -webkit-animation: var(--iron-icon-animation);
+    animation: var(--iron-icon-animation);
+    margin-top: var(--iron-icon-margin-top);
+    margin-right: var(--iron-icon-margin-right);
+    margin-bottom: var(--iron-icon-margin-bottom);
+    margin-left: var(--iron-icon-margin-left);
+    padding: var(--iron-icon-padding);
+}
+ytd-thumbnail-overlay-toggle-button-renderer > * {
+    --paper-tooltip-background: var(--yt-spec-static-overlay-background-heavy);
+    background-color: var(--yt-spec-static-overlay-background-heavy);
+    border-radius: 24px;
+}
+<style>
+html:not(.style-scope), :not(.style-scope) {
+    --yt-spec-brand-background-primary: rgba(51, 51, 51, 0.46) !important;
+}
+ytd-thumbnail-overlay-toggle-button-renderer {
+    --paper-tooltip-background: var(--yt-spec-static-overlay-background-heavy);
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: var(--yt-spec-static-overlay-text-primary);
+    outline: none;
+    background-color: var(--yt-spec-static-overlay-background-heavy);
+    transition: opacity 0.3s;
+    width: 28px;
+    height: 28px;
+    border-radius: 24px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 #button.ytd-toggle-button-renderer yt-icon.ytd-toggle-button-renderer+yt-formatted-string.ytd-toggle-button-renderer {
 	margin-left: var(--yt-string-icon-padding, 8px);
