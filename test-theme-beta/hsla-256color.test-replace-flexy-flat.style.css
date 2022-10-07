@@ -1330,7 +1330,7 @@ ytd-thumbnail-overlay-toggle-button-renderer {
     transition: opacity 0.3s;
     width: 28px;
     height: 28px;
-    border-radius: 24px;
+    border-radius: 24px !important;
     margin: 4px;
     display: flex;
     flex-direction: row;
