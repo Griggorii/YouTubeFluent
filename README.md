@@ -35,9 +35,9 @@ V2 hsla more rounded corners solved the problem of the main page of YouTube and 
 
 <img width="200px" src="https://i.imgur.com/YdZm30f.png"></a>
 
-- #### [3] **[Use CSS Code](https://github.com/LawOff/YouTubeFluent/blob/main/theme/style.css "Use CSS Code").**
+- #### [3] **[Use CSS Code](https://github.com/Griggorii/YouTubeFluent/tree/main/theme "Use CSS Code").**
 
-- #### [4] **[Use JS Code](https://github.com/LawOff/YouTubeFluent/blob/main/theme/script.js "Use JS Code").**
+- #### [4] **[Import setting json Code](https://github.com/Griggorii/YouTubeFluent/tree/main/import_setting "Use JSON Code").**
 
 
 ## Credits:
