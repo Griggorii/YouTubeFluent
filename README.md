@@ -27,9 +27,14 @@ V2 hsla more rounded corners solved the problem of the main page of YouTube and 
 
 ## Installation:
  
-- #### [1] **[Install the extension Tweaks for YouTube](https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge "Install the extension Tweaks for YouTube").**
+- #### [Chromium/Chrome/Opera] **[Install the extension Tweaks for YouTube](https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge "Install the extension Tweaks for YouTube").**
 <img width="500px" src="https://i.imgur.com/kYF2ESb.png"></a>
 
+- #### [Firefox] **[Install the extension Tweaks for YouTube](https://addons.mozilla.org/en-US/firefox/addon/tweaks-for-youtube "Install the extension Tweaks for YouTube").**
+<img width="500px" src="https://i.imgur.com/kYF2ESb.png"></a>
+
+- #### [EDGE] **[Install the extension Tweaks for YouTube](https://microsoftedge.microsoft.com/addons/detail/tweaks-for-youtube/nnhifoobfibjmlkejadjmcdckkjbljcp "Install the extension Tweaks for YouTube").**
+<img width="500px" src="https://i.imgur.com/kYF2ESb.png"></a>
 
 - #### [2] **[Go to Extension Settings](chrome-extension://ogkoifddpkoabehfemkolflcjhklmkge/options.html "Go to Extension Settings").**
 
