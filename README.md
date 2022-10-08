@@ -36,13 +36,10 @@ V2 hsla more rounded corners solved the problem of the main page of YouTube and 
 - #### [EDGE] **[Install the extension Tweaks for YouTube](https://microsoftedge.microsoft.com/addons/detail/tweaks-for-youtube/nnhifoobfibjmlkejadjmcdckkjbljcp "Install the extension Tweaks for YouTube").**
 <img width="500px" src="https://i.imgur.com/kYF2ESb.png"></a>
 
-- #### [2] **[Go to Extension Settings](chrome-extension://ogkoifddpkoabehfemkolflcjhklmkge/options.html "Go to Extension Settings").**
 
-<img width="200px" src="https://i.imgur.com/YdZm30f.png"></a>
+- #### [CSS] **[Use CSS Code](https://github.com/Griggorii/YouTubeFluent/tree/main/theme "Use CSS Code").**
 
-- #### [3] **[Use CSS Code](https://github.com/Griggorii/YouTubeFluent/tree/main/theme "Use CSS Code").**
-
-- #### [4] **[Import setting json Code](https://github.com/Griggorii/YouTubeFluent/tree/main/import_setting "Use JSON Code").**
+- #### [JSON] **[Import setting json Code](https://github.com/Griggorii/YouTubeFluent/tree/main/import_setting "Use JSON Code").**
 
 
 ## Credits:
