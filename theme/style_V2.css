@@ -1034,7 +1034,7 @@ div#container {
 }
 /*button border radius*/
 ytd-button-renderer #button.ytd-button-renderer {
-	border-radius: 20px !important;
+	border-radius: 24px !important;
 }
 /*video (playlist) border radius*/
 ytd-playlist-video-renderer {
