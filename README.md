@@ -9,7 +9,7 @@ V2 hsla more rounded corners solved the problem of the main page of YouTube and 
       <img alt="youtube subscribers" title="Subscribe to griggorii editor YouTube channel" src="https://github-readme-youtube-stats.herokuapp.com/subscribers/index.php?id=UCbfGHhyeHpKXF5rl1cRfvbg&key=AIzaSyDvBOxP4M5Ygutbku6_3whU2YR6xV9KKV8&style=for-the-badge&color=red&labelColor=ce4630&label=Subscribers"/></a>
     <a href="https://www.youtube.com/watch?v=wccwRTUtO_w">
       <img alt="youtube views" title="YouTube views" src="https://github-readme-youtube-stats.herokuapp.com/views/index.php?id=UCbfGHhyeHpKXF5rl1cRfvbg&key=AIzaSyDvBOxP4M5Ygutbku6_3whU2YR6xV9KKV8&label=View+Count&style=for-the-badge&color=blue&labelColor=0b689d"/></a>
-  <a href="https://discord.gg/cPKc5B6Gnv" alt="Dev Pro Tips Discussion & Support Server">
+  <a href="https://boosty.to/unix" alt="Dev Pro Tips Discussion & Support Server">
     <img src="https://img.shields.io/discord/836621542917275668?color=7289DA&labelColor=4a64bd&logo=discord&logoColor=white&style=for-the-badge"/></a>
   </p>
 </p>
