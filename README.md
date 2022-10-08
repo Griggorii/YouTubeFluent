@@ -58,3 +58,7 @@ Original Author:
 
 
 **03/10/2022.** попытка приблизить к дамповому состоянию отсюда https://github.com/Griggorii/Chromium_OS_77/blob/master/Griggorii_api_new%20-%20YouTube.html.zip
+
+<a href="" onmouseover="document.getElementById('big_img').st yle.display = 'block'" onmouseout="document.getElementById('big_img').sty le.display = 'none'">
+<img src="https://i.imgur.com/kYF2ESb.png" style="width: 120px;" border="0" /></div>
+</a>
