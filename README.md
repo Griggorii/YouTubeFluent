@@ -1,7 +1,9 @@
 V2 hsla more rounded corners solved the problem of the main page of YouTube and filling with white, in case you want to enable a dark theme, then use a non-V2 hsla version
 
 Клик по левой части видео и регулировка колесом регулирует скорость видео
+
 Клик по центру видео и регулировка колесом перемотки видео
+
 Клик по правой части видео вкл/выключить звук , регулировка без клика колесом регулирует уровень громкости
 
 ---
