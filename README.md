@@ -17,7 +17,7 @@ V2 hsla more rounded corners solved the problem of the main page of YouTube and 
     <img src="https://img.shields.io/discord/836621542917275668?color=7289DA&labelColor=4a64bd&logo=discord&logoColor=white&style=for-the-badge"/></a>
   </p>
 </p>
-<p align="center"> How to have a MODERN YouTube Interface (2022)</p>
+<p align="center"> How to have a MODERN YouTube Interface (2023)</p>
 
 ---
 
