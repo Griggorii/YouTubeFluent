@@ -22,8 +22,8 @@ V2 hsla more rounded corners solved the problem of the main page of YouTube and 
 ---
 
 ## Video Tutorial:
-<table><tr><td><a href="https://youtu.be/yUj94z1VsKc"><img width="300px" src="https://i.imgur.com/1f5P5de.jpeg"></a></td>
-<td><a href="https://youtu.be/yUj94z1VsKc">How to have a MODERN YouTube Interface (2022) </a><br/>August 2, 2022</td></tr></table>
+<table><tr><td><a href="https://youtu.be/zqmntu3Scl4"><img width="300px" src="https://i.imgur.com/1f5P5de.jpeg"></a></td>
+<td><a href="https://youtu.be/zqmntu3Scl4">How to have a MODERN YouTube Interface (2023) </a><br/>October 7, 2023</td></tr></table>
 
 ## Installation:
  
@@ -50,3 +50,7 @@ Original Author:
 
 
 **03/10/2022.** попытка приблизить к дамповому состоянию отсюда https://github.com/Griggorii/Chromium_OS_77/blob/master/Griggorii_api_new%20-%20YouTube.html.zip
+
+Chromium/Chrome/Opera:https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge
+Firefox:https://addons.mozilla.org/en-US/firefox/addon/tweaks-for-youtube/
+EDGE:https://microsoftedge.microsoft.com/addons/detail/tweaks-for-youtube/nnhifoobfibjmlkejadjmcdckkjbljcp
