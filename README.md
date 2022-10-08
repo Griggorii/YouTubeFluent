@@ -46,7 +46,7 @@ Scripts found here:
 [RikisuT](https://github.com/RikisuT/Youtube-Fluent-Theme "RikisuT") -
 
 Scripts reeditor 2023:
-[Griggorii]([https://github.com/Griggorii/YouTubeFluent "Griggorii") -
+[Griggorii](https://github.com/Griggorii/YouTubeFluent "Griggorii") -
 
 Original Author:
 [Simon Galver](https://userstyles.org/users/854680 "Simon Galver") - 
