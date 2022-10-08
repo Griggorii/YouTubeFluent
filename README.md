@@ -22,7 +22,7 @@ V2 hsla more rounded corners solved the problem of the main page of YouTube and 
 ---
 
 ## Video Tutorial:
-<table><tr><td><a href="https://youtu.be/zqmntu3Scl4"><img width="300px" src="https://i.imgur.com/1f5P5de.jpeg"></a></td>
+<table><tr><td><a href="https://youtu.be/zqmntu3Scl4"><img width="300px" src="https://i.ytimg.com/vi/zqmntu3Scl4/maxresdefault.jpg"></a></td>
 <td><a href="https://youtu.be/zqmntu3Scl4">How to have a MODERN YouTube Interface (2023) </a><br/>October 7, 2023</td></tr></table>
 
 ## Installation:
