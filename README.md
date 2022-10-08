@@ -58,11 +58,3 @@ Original Author:
 
 
 **03/10/2022.** попытка приблизить к дамповому состоянию отсюда https://github.com/Griggorii/Chromium_OS_77/blob/master/Griggorii_api_new%20-%20YouTube.html.zip
-
-Extensions browsers
-
-Chromium/Chrome/Opera:https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge
-
-Firefox:https://addons.mozilla.org/en-US/firefox/addon/tweaks-for-youtube/
-
-EDGE:https://microsoftedge.microsoft.com/addons/detail/tweaks-for-youtube/nnhifoobfibjmlkejadjmcdckkjbljcp
