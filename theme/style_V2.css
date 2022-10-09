@@ -796,11 +796,11 @@ ytd-thumbnail.ytd-rich-grid-video-renderer:before {
 }
 /*video title border radius fix*/
 #video-title {
-	border-radius: 24px !important;
+	border-radius: 0px !important;
 }
 /*video title border radius fix*/
 a.yt-simple-endpoint.style-scope.yt-formatted-string {
-	border-radius: 24px !important;
+	border-radius: 0px !important;
 }
 /*searchbar predictions highlighter border radius*/
 .gsfs {
