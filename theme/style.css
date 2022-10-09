@@ -1164,10 +1164,10 @@ ytd-miniplayer[animate-miniplayer] #expander-space.ytd-miniplayer {
 	backdrop-filter: blur(10px) !important;
 }
 tp-yt-paper-button.ytd-subscribe-button-renderer[subscribed] {
-	border-radius: 14px !important;
+	border-radius: 24px !important;
 }
 tp-yt-paper-button.ytd-subscribe-button-renderer {
-	border-radius: 14px !important;
+	border-radius: 24px !important;
 }
 #contentWrapper.tp-yt-iron-dropdown > * {
 	border-radius: 14px !important;
