@@ -1249,6 +1249,11 @@ ytd-thumbnail-overlay-time-status-renderer {
 	background-color: rgb(0 0 0 / 35%) !important;
 	backdrop-filter: blur(10px) !important;
 }
+ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS] {
+    background-color: var(--yt-spec-static-brand-white) !important;
+    color: #009688 !important;
+    z-index: 1 !important;
+}
    /* griggorii mini preview icons watch later add to playlist */
 yt-icon, .yt-icon-container.yt-icon {
     display: inline-flex;
