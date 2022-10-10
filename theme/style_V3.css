@@ -1375,3 +1375,6 @@ ytd-toggle-button-renderer.style-default-active[is-paper-button][system-icons] {
 ytd-toggle-button-renderer.style-text[is-paper-button] {
     color: #040ad8 !important;
 }
+a.yt-formatted-string {
+    color: #FF9800 !important;
+}
