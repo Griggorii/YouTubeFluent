@@ -423,25 +423,9 @@ paper-item.style-scope.ytd-menu-service-item-renderer {
 paper-item.style-scope.yt-dropdown-menu {
 	border-radius: 24px !important;
 }
-/*channel header bg color*/
-#channel-container.ytd-c4-tabbed-header-renderer, #tabs-container.ytd-c4-tabbed-header-renderer {
-	background-color: rgba(31, 31, 31, 0.4) !important;
-}
 /*channel header backdrop filter*/
 div#channel-header {
-	background-color: rgba(31, 31, 31, 0.55) !important;
-	backdrop-filter: blur(20px) !important;
-	-webkit-backdrop-filter: blur(20px) !important;
-}
-/*channel tabs backdrop filter*/
-ytd-c4-tabbed-header-renderer[background-color-update] #channel-container.ytd-c4-tabbed-header-renderer, ytd-c4-tabbed-header-renderer[background-color-update] #tabs-container.ytd-c4-tabbed-header-renderer {
-	background-color: rgba(23, 23, 23, 0.55) !important;
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
-}
-/*channel tabs backdrop filter*/
-#tabs-inner-container.ytd-c4-tabbed-header-renderer {
-	background-color: rgba(40, 40, 40, 0.4) !important;
+        background-color: rgba(22 21 20) !important;
 	backdrop-filter: blur(20px) !important;
 	-webkit-backdrop-filter: blur(20px) !important;
 }
@@ -1061,9 +1045,6 @@ yt-img-shadow.ytd-topbar-menu-button-renderer {
 yt-img-shadow.ytd-channel-avatar-editor {
 	border-radius: 24px !important;
 }
-#avatar.ytd-c4-tabbed-header-renderer {
-	border-radius: 24px !important;
-}
 #author-thumbnail.ytd-comment-simplebox-renderer {
 	border-radius: 24px !important;
 }
@@ -1377,4 +1358,24 @@ ytd-toggle-button-renderer.style-text[is-paper-button] {
 }
 a.yt-formatted-string {
     color: #FF9800 !important;
+}
+#channel-container.ytd-c4-tabbed-header-renderer, #tabs-container.ytd-c4-tabbed-header-renderer {
+    background-color: rgb(31 31 31 / 0%) !important;
+}
+ytd-c4-tabbed-header-renderer {
+    --yt-lightsource-section1-color: var(--yt-spec-general-background-a);
+    --yt-lightsource-primary-title-color: #fff !important; */
+    --yt-lightsource-secondary-title-color: #fff !important; */
+    display: block;
+}
+tp-yt-paper-tabs.ytd-c4-tabbed-header-renderer {
+    --paper-tabs-selection-bar-color: #e4840c !important;
+    color: #080808 !important;
+}
+ytd-c4-tabbed-header-renderer {
+    --yt-lightsource-section1-color: #393632 !important;
+    color: #080808 !important;
+}
+#subscriber-count.ytd-c4-tabbed-header-renderer {
+    color: hsl(0deg 6% 77%) !important;
 }
