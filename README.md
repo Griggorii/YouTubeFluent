@@ -1,4 +1,4 @@
-V2 hsla more rounded corners solved the problem of the main page of YouTube and filling with white, in case you want to enable a dark theme, then use a non-V2 hsla version.  V5 Beta not stable UI
+V4
 
 Тема постоянно обновляется проверяйте в течении недели новый css \ The topic is constantly updated to check the new CSS within a week
 
