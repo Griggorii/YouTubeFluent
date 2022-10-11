@@ -102,3 +102,5 @@ V4 delete
     html, [light] {
     /* --yt-spec-text-secondary: #606060 !important;
     }
+    
+    replace div#header border-radius: 24px 24px 24px 24px
