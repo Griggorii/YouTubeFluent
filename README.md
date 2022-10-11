@@ -77,3 +77,28 @@ Original Author:
       <img src="https://i.ytimg.com/vi/zqmntu3Scl4/maxresdefault/200x200" alt="" />
     </div>
   </div>
+
+V4 delete 
+
+    /*From Here*/
+    tp-yt-app-drawer.ytd-app[persistent] {
+      display:none;
+    }
+    ytd-page-manager.ytd-app {
+      margin-left: 0px !important;
+    }
+    ytd-mini-guide-renderer.ytd-app {
+      width: 0px !important;
+    }
+    
+   add 
+   
+   #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app {
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    background: rgb(35 35 35 / 0) !important;
+    overflow: hidden !important;
+}
+html, [light] {
+    /* --yt-spec-text-secondary: #606060 !important;
+}
