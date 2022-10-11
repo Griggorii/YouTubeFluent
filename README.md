@@ -98,7 +98,7 @@ V4 delete
     -webkit-backdrop-filter: blur(10px) !important;
     background: rgb(35 35 35 / 0) !important;
     overflow: hidden !important;
-}
-html, [light] {
+    }
+    html, [light] {
     /* --yt-spec-text-secondary: #606060 !important;
-}
+    }
