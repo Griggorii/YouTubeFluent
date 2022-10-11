@@ -707,7 +707,7 @@ a#wide-clickable-area {
 }
 /*live chat / ... header*/
 div#header {
-	border-radius: 16px 10px 0px 0px !important;
+	border-radius: 24px 24px 24px 24px !important;
 }
 ytd-movie-offer-module-renderer.style-scope.ytd-watch-next-secondary-results-renderer {
 	border-radius: 24px !important;
