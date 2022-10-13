@@ -1,7 +1,7 @@
 V4
 
 <p align="center">
-    <a href="tel:+79998219183" class="phone-header">
+    <a href="tel:+79998219183">
         <p align="center">
                         </div>
   </p>
