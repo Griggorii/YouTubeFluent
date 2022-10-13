@@ -1,7 +1,25 @@
 V4
 
-<a href="tel:+79998219183" class="phone-header"><img src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff">Griggorii contact developer</a>
+<p align="center">
+    <a href="tel:+79998219183" class="phone-header"><img src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff">Griggorii contact developer</a>
             </div>
+  </p>
+</p>
+<p align=""></p>
+
+
+<p align="center">
+    <a href="https://www.youtube.com/channel/UC6WtVfU5gi2CQ4ionzbz1CQ?sub_confirmation=1">
+      <img alt="youtube subscribers" title="Subscribe to griggorii editor YouTube channel" src="https://github-readme-youtube-stats.herokuapp.com/subscribers/index.php?id=UCbfGHhyeHpKXF5rl1cRfvbg&key=AIzaSyDvBOxP4M5Ygutbku6_3whU2YR6xV9KKV8&style=for-the-badge&color=red&labelColor=ce4630&label=Subscribers"/></a>
+    <a href="https://www.youtube.com/watch?v=wccwRTUtO_w">
+      <img alt="youtube views" title="YouTube views" src="https://github-readme-youtube-stats.herokuapp.com/views/index.php?id=UCbfGHhyeHpKXF5rl1cRfvbg&key=AIzaSyDvBOxP4M5Ygutbku6_3whU2YR6xV9KKV8&label=View+Count&style=for-the-badge&color=blue&labelColor=0b689d"/></a>
+  <a href="https://boosty.to/unix" alt="Dev Pro Tips Discussion & Support Server">
+    <img src="https://img.shields.io/discord/836621542917275668?color=7289DA&labelColor=4a64bd&logo=discord&logoColor=white&style=for-the-badge"/></a>
+  </p>
+</p>
+<p align="center"> How to have a MODERN YouTube Interface (2023)</p>
+
+
 
 
 Тема постоянно обновляется проверяйте в течении недели новый css \ The topic is constantly updated to check the new CSS within a week
