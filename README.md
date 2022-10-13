@@ -6,6 +6,36 @@ V4
   </p>
 </p>
 
+<?xml version="1.0" encoding="utf-8"?> 
+<!--Relative Layout-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity"> 
+
+	<!-- Edit text for phone number -->
+	<EditText
+		android:id="@+id/editText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dp" /> 
+	
+	<!-- Button to make call -->
+	<Button
+		android:id="@+id/button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="115dp"
+		android:padding="5dp"
+		android:text="Make Call!!" /> 
+</RelativeLayout>
+
+
 
 
 Тема постоянно обновляется проверяйте в течении недели новый css \ The topic is constantly updated to check the new CSS within a week
