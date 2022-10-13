@@ -1,8 +1,10 @@
 V4
 
 <p align="center">
-    <a href="tel:+79998219183" class="phone-header"><img src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff">Griggorii contact developer</a>
-            </div>
+<div id="thumbnail-container" class="style-scope ytd-video-preview">
+        <ytd-thumbnail hovered="false" rich-grid-thumbnail="" width="9999" class="style-scope ytd-video-preview"><!--css-build:shady--><a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1" rel="null" href="tel:+79998219183" class="phone-header">
+  <yt-img-shadow ftl-eligible="" class="style-scope ytd-thumbnail no-transition" style="background-color: transparent;"><!--css-build:shady--><img id="img" class="style-scope yt-img-shadow" alt="" src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff" width="9999"></yt-img-shadow>
+           </div>
   </p>
 </p>
 
