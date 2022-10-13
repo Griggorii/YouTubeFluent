@@ -6,6 +6,38 @@ V4
   </p>
 </p>
 
+<dialog id="voice-overlay-dialog" class="overlay-dialog">
+    <div id="voice-overlay" class="overlay-hidden">
+      <button id="voice-close-button" class="close-button">&times;</button>
+      <div id="voice-outer" class="outer">
+        <div class="inner-container">
+          <div id="voice-button-container" class="button-container">
+            <!-- The audio level animation. -->
+            <span id="voice-level" class="level"></span>
+            <!-- The microphone button. -->
+            <span id="voice-button" class="button">
+              <!-- The microphone icon (in CSS). -->
+              <div class="microphone">
+                <span class="receiver"></span>
+                <div class="wrapper">
+                  <span class="stem"></span>
+                  <span class="shell"></span>
+                </div>
+              </div>
+            </span>
+          </div>
+          <div id="text-container" aria-live="polite">
+            <!-- Low confidence text underneath high confidence text. -->
+            <span id="voice-text-i" class="voice-text"></span>
+            <!-- High confidence text on top of low confidence text. -->
+            <span id="voice-text-f" class="voice-text"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+  <div id="screen-reader-announcer" role="status" aria-live="polite"></div>
+
 
 Тема постоянно обновляется проверяйте в течении недели новый css \ The topic is constantly updated to check the new CSS within a week
 
