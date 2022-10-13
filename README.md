@@ -1,7 +1,7 @@
 V4
 
 <div class="col-12 col-sm-auto text-center">
-                <a href="tel:+79998219183" class="phone-header"><img src="img/svg/1-white.svg">8 999 821-91-83</a>
+                <a href="tel:+79998219183" class="phone-header"><img src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff">Griggorii contact developer</a>
             </div>
 
 
