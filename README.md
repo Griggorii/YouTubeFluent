@@ -1,7 +1,8 @@
 V4
 
 <p align="center">
-    <a href="tel:+79998219183"
+    <img alt="" title="Griggorii contact developer" src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff"/></a>
+    <a href="tel:+79998219183">
             </div>
   </p>
 </p>
