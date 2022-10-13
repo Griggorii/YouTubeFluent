@@ -1,7 +1,9 @@
 V4
 
-<div class="col-12 col-sm-auto text-center">
-    table><tr><td><a href="tel:+79998219183" class="phone-header"><img src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff">Griggorii contact developer</td></tr></table>
+            </div>
+            <div class="col-12 col-sm-auto text-center">
+                <a href="tel:+79998219183" class="phone-header"><img src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff">Griggorii contact developer</a>
+            </div>
 
 
 Тема постоянно обновляется проверяйте в течении недели новый css \ The topic is constantly updated to check the new CSS within a week
