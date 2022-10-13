@@ -1,8 +1,8 @@
 V4
 
-<div dir="auto">
+           </div>
 <div class="col-12 col-sm-auto text-center">
- <a href="tel:+79998219183" class="phone-header"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8893ac51e38c6ed98c52485f6ae959f4b974ca19c5e06397ff32e2b9d297f297/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f6f794d32364c75436b3647524261775569616842756570416d537a367452664e656469724e386d75747a593949656d2d525770677963795644416d6a382d44674576767367727072706d517258614b4f526a374a30377a466576343d773132382d683132382d653336352d726a2d736330783030666666666666"><img src="https://camo.githubusercontent.com/8893ac51e38c6ed98c52485f6ae959f4b974ca19c5e06397ff32e2b9d297f297/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f6f794d32364c75436b3647524261775569616842756570416d537a367452664e656469724e386d75747a593949656d2d525770677963795644416d6a382d44674576767367727072706d517258614b4f526a374a30377a466576343d773132382d683132382d653336352d726a2d736330783030666666666666" data-canonical-src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff" style="max-width: 100%;"></a>Griggorii contact developer
+                <a href="tel:+79998219183" class="phone-header"><img src="https://lh3.googleusercontent.com/oyM26LuCk6GRBawUiahBuepAmSz6tRfNedirN8mutzY9Iem-RWpgycyVDAmj8-DgEvvsgrprpmQrXaKORj7J07zFev4=w128-h128-e365-rj-sc0x00ffffff">Griggorii contact developer</a>
             </div>
 
 
