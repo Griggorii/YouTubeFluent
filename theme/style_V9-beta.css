@@ -2565,10 +2565,10 @@ margin-bottom: var(--iron-icon-margin-bottom) !important;
 margin-left: var(--iron-icon-margin-left) !important;
 padding: var(--iron-icon-padding) !important;
 }
-ytd-thumbnail-overlay-toggle-button-renderer > *{
---paper-tooltip-background: var(--yt-spec-static-overlay-background-heavy) !important;
-background-color: var(--yt-spec-static-overlay-background-heavy) !important;
-border-radius: 24px !important;
+ytd-thumbnail-overlay-toggle-button-renderer > * {
+    --paper-tooltip-background: var(--yt-spec-static-overlay-background-heavy) !important;
+    /* background-color: var(--yt-spec-static-overlay-background-heavy) !important; */
+    border-radius: 24px !important;
 }
 
 html
