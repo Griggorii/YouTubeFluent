@@ -1,5 +1,42 @@
 /*griggorii youtube UI 2023 copyright*/
    /* griggorii test */
+element.style {
+}
+   /* griggorii test */
+.ytp-timed-markers-container {
+    -webkit-transform: scaleY(0.6) !important;
+    transform: scaleY(0.6) !important;
+    top: 1px !important;
+    z-index: 40 !important;
+}
+   /* griggorii test */
+.ytp-timed-markers-container, .ytp-clip-start-exclude, .ytp-clip-end-exclude {
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-transform-origin: 0 0 !important;
+    transform-origin: 0 0 !important;
+}
+   /* griggorii test */
+.ytp-timed-markers-container {
+    -webkit-transform: scaleY(0.6) !important;
+    transform: scaleY(0.6) !important;
+    top: 1px !important;
+    z-index: 40 !important;
+}
+   /* griggorii test */
+.ytp-timed-markers-container, .ytp-clip-start-exclude, .ytp-clip-end-exclude {
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-transform-origin: 0 0 !important;
+    transform-origin: 0 0 !important;
+}
+   /* griggorii test */
 .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
     color: var(--yt-spec-text-primary-inverse);
     background-color: #c00 !important;
