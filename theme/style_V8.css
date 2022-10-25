@@ -361,7 +361,7 @@ ytd-post-renderer[uses-compact-lockup_] {
 }
 /*view email button border radius*/
 ytd-button-renderer[is-paper-button]{
-	margin-left: -16px;
+        margin-left: 0px !important;
 	border-radius: 24px !important;
 }
 /*sidebar width*/
