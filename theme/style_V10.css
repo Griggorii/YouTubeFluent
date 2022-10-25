@@ -8,7 +8,8 @@
    /* griggorii test */
 ytd-watch-metadata {
     display: block !important;
-    color: #014441 !important;
+    color: #065fd4 !important;
+   /* color: #014441 !important; */
 }
    /* griggorii test */
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
@@ -18,7 +19,8 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
    /* griggorii test */
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--filled {
     color: var(--yt-spec-text-primary-inverse) !important;
-    background-color: #2b042b !important;
+    background-color: #014441 !important;
+   /* background-color: #2b042b !important; */
 }
    /* griggorii test */
 html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, samp, small, strike, strong, sub, sup, tt, b, u, i, center, dd, ol, ul, li, fieldset,  thead, article, aside, details, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, canvas, caption, dd, dl, dt, embed, font, form, h1, h2, h3, h4, h5, h6, hr, i, label, legend, menu, p, q, s, table, tbody, td, tfoot, th, thead, tr, var {
