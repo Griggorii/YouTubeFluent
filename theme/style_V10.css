@@ -1,5 +1,10 @@
 /*griggorii youtube UI 2023 copyright*/
    /* griggorii test */
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+    color: var(--yt-spec-text-primary-inverse);
+    background-color: #c00 !important;
+}
+   /* griggorii test */
 .yt-spec-button-shape-next--size-m {
 }
    /* griggorii test */
