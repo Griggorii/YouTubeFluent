@@ -3,6 +3,14 @@
 element.style {
 }
    /* griggorii test */
+.iv-card h2 {
+    color: #fff !important;
+}
+   /* griggorii test */
+.iv-card, .iv-card a.iv-click-target, .iv-card a.iv-click-target:hover, .iv-card a.iv-click-target:focus {
+    color: #dbdbdbd6 !important;
+}
+   /* griggorii test */
 .ytp-timed-markers-container {
     -webkit-transform: scaleY(0.6) !important;
     transform: scaleY(0.6) !important;
