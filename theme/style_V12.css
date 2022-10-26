@@ -1,9 +1,20 @@
 /*griggorii youtube UI 2023 copyright*/
    /* griggorii test */
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+    /* color: var(--yt-spec-text-primary-inverse); */
+    color: #fff !important;
+    background-color: #c00 !important;
+}
+   /* griggorii test */
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
+    color: #fff !important;
+    background-color: #c00 !important;
+}
+   /* griggorii test */
 #content.yt-tooltip-renderer yt-formatted-string.yt-tooltip-renderer, #text.yt-tooltip-renderer yt-formatted-string.yt-tooltip-renderer {
-    --yt-endpoint-color: #fff;
-    --yt-endpoint-visited-color: #fff;
-    --yt-endpoint-hover-color: #fff;
+    --yt-endpoint-color: #fff !important;
+    --yt-endpoint-visited-color: #fff !important;
+    --yt-endpoint-hover-color: #fff !important;
 }
    /* griggorii test */
 ytd-thumbnail-overlay-toggle-button-renderer {
@@ -49,11 +60,6 @@ element.style {
     height: 100% !important;
     -webkit-transform-origin: 0 0 !important;
     transform-origin: 0 0 !important;
-}
-   /* griggorii test */
-.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
-    color: var(--yt-spec-text-primary-inverse);
-    background-color: #c00 !important;
 }
    /* griggorii test */
 .yt-spec-button-shape-next--size-m {
