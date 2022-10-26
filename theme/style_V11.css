@@ -195,10 +195,11 @@ tp-yt-paper-button {
 /*Smooth Scroll*/
 html {
    scroll-behavior: smooth;
+    --yt-button-border-radius: 24px !important;
 }
 /*chapter border radius*/
 ytd-engagement-panel-section-list-renderer {
-	border-radius: 24px;
+	border-radius: 24px !important;
 }
 ytd-thumbnail.ytd-rich-grid-media:before {
 	background-color: transparent !important;
