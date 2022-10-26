@@ -284,9 +284,9 @@ ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-fl
 	border: none !important;
 }
 /*info card teaser text color*/
-/*griggorii fix color #606060 black teaser text color*/
+/*griggorii fix color #fff black teaser text color*/
 .ytp-cards-teaser .ytp-cards-teaser-text {
-	color: #606060 !important;
+	color: #fff !important;
 }
 /*buy button background / text color*/
 #button.yt-live-chat-message-buy-flow-renderer, yt-button-renderer.style-primary[is-paper-button], #action.ytd-action-companion-ad-renderer {
