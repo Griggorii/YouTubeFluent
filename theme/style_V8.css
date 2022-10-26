@@ -1,5 +1,15 @@
 /*TO TURN OFF AUTO HIDE SIDEBAR REMOVE THE BELOW CODE AND TURN OFF THE JAVASCRIPT CODE*/
    /* griggorii test */
+ytd-button-renderer {
+    /* --paper-button-ink-color: var(--yt-live-chat-sponsor-color); */
+    /* --yt-formatted-string-deemphasize-color: var(--yt-live-chat-mention-background-color); */
+    /* vertical-align: middle; */
+    /* white-space: nowrap; */
+    /* font-size: var(--ytd-tab-system-font-size); */
+    font-size: 1.2rem !important;
+    font-family: "Roboto","Arial",sans-serif !important;
+}
+   /* griggorii test */
 element.style {
 }
    /* griggorii test */
