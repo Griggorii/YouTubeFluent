@@ -1,5 +1,11 @@
 /*griggorii youtube UI 2023 copyright*/
    /* griggorii test */
+#content.yt-tooltip-renderer yt-formatted-string.yt-tooltip-renderer, #text.yt-tooltip-renderer yt-formatted-string.yt-tooltip-renderer {
+    --yt-endpoint-color: #fff;
+    --yt-endpoint-visited-color: #fff;
+    --yt-endpoint-hover-color: #fff;
+}
+   /* griggorii test */
 ytd-thumbnail-overlay-toggle-button-renderer {
     border-radius: 24px !important;
 }
@@ -73,7 +79,93 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
    /* background-color: #2b042b !important; */
 }
    /* griggorii test */
-html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, samp, small, strike, strong, sub, sup, tt, b, u, i, center, dd, ol, ul, li, fieldset,  thead, article, aside, details, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, canvas, caption, dd, dl, dt, embed, font, form, h1, h2, h3, h4, h5, h6, hr, i, label, legend, menu, p, q, s, table, tbody, td, tfoot, th, thead, tr, var {
+html
+body
+div
+span
+applet
+object
+iframe
+blockquote
+pre
+a
+abbr
+acronym
+address
+big
+cite
+code
+del
+dfn
+em
+img
+ins
+kbd
+samp
+small
+strike
+strong
+sub
+sup
+tt
+b
+u
+i
+center
+dd
+ol
+ul
+li
+fieldset
+thead
+article
+aside
+details
+figure
+figcaption
+footer
+header
+hgroup
+menu
+nav
+output
+ruby
+section
+summary
+time
+mark
+audio
+video
+canvas
+caption
+dd
+dl
+dt
+embed
+font
+form
+h1
+h2
+h3
+h4
+h5
+h6
+hr
+i
+label
+legend
+menu
+p
+q
+s
+table
+tbody
+td
+tfoot
+th
+thead
+tr
+var{
 }
    /* Notify youtube 🔔 size griggorii fix */
 #contentWrapper > ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] {
