@@ -1,12 +1,63 @@
-/*griggorii youtube UI 2023 copyright*/   
+/*griggorii youtube UI 2023 copyright*/
+   /* griggorii test */
+.yt-spec-button-shape-next--size-m * {
+}
+   /* griggorii test */
+.yt-spec-button-shape-next * {
+}
+   /* griggorii test */
+.yt-spec-button-shape-next--size-m {
+}
+   /* griggorii test */
+.yt-spec-button-shape-next {
+}
+ytd-button-renderer #ytd-toggle-button-renderer.style-default-active * {
+    background-color: #8664641c !important;
+    border-radius: 24px !important;
+}
+#icon.ytd-pivot-button-renderer, #thumbnail.ytd-pivot-button-renderer {
+    --yt-img-border-radius: 6px;
+    border-radius: 24px !important;
+    color: #dbdbdb !important;
+}
 /* griggorii test button border radius*/
 ytd-button-renderer #button.ytd-button-renderer * {
     background-color: #8664641c !important;
     border-radius: 24px !important;
 }
-ytd-button-renderer #ytd-toggle-button-renderer.style-default-active * {
-    background-color: #8664641c !important;
+img#img {
     border-radius: 24px !important;
+}
+<style>
+yt-img-shadow[object-fit=FILL] img.yt-img-shadow, yt-img-shadow[fit] img.yt-img-shadow {
+    width: 100%;
+    height: 100%;
+}
+<style>
+img.yt-img-shadow {
+    display: block;
+    margin-left: var(--yt-img-margin-left,auto);
+    margin-right: var(--yt-img-margin-right,auto);
+    max-height: var(--yt-img-max-height,none);
+    max-width: var(--yt-img-max-width,100%);
+    border-radius: var(--yt-img-border-radius,none);
+}
+   /* griggorii test */
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
+    color: #065fd4 !important;
+    border-color: rgb(0 0 0 / 0.1) !important;
+}
+   /* griggorii test */
+#footer.ytd-guide-renderer > #copyright {
+    color: #dbdbdb !important;
+}
+   /* griggorii test */
+#guide-links-primary.ytd-guide-renderer > a, #guide-links-secondary.ytd-guide-renderer > a {
+    color: #fff !important;
+}
+   /* griggorii test */
+html[darker-dark-theme], [darker-dark-theme] [light] {
+    --yt-spec-text-primary-inverse: #fff !important;
 }
 /* griggorii test like activate*/
 ytd-toggle-button-renderer.style-default-active[is-paper-button][system-icons] {
@@ -148,12 +199,6 @@ element.style {
     height: 100% !important;
     -webkit-transform-origin: 0 0 !important;
     transform-origin: 0 0 !important;
-}
-   /* griggorii test */
-.yt-spec-button-shape-next--size-m {
-}
-   /* griggorii test */
-.yt-spec-button-shape-next {
 }
    /* griggorii test */
 ytd-watch-metadata {
