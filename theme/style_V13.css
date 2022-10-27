@@ -1,4 +1,15 @@
 /*griggorii youtube UI 2023 copyright*/
+/* griggorii test like activate*/
+ytd-toggle-button-renderer.style-default-active[is-paper-button][system-icons] {
+    color: #040ad8 !important;
+}
+ytd-toggle-button-renderer.style-text[is-icon-button] {
+    color: #107516 !important;
+}
+   /* griggorii test */
+.ytp-big-mode:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
+    border-radius: 0px !important;
+}
    /* griggorii test */
 ytd-watch-flexy[flexy][is-two-columns_][is-extra-wide-video_] #primary.ytd-watch-flexy, ytd-watch-flexy[flexy][is-two-columns_][is-four-three-to-sixteen-nine-video_] #primary.ytd-watch-flexy {
     max-width: var(--ytd-watch-flexy-max-player-width);
