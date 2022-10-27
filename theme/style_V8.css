@@ -1,5 +1,10 @@
 /*TO TURN OFF AUTO HIDE SIDEBAR REMOVE THE BELOW CODE AND TURN OFF THE JAVASCRIPT CODE*/
    /* griggorii test */
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
+    color: #fff !important;
+    background-color: #c00 !important;
+}
+   /* griggorii test */
 ytd-button-renderer {
     /* --paper-button-ink-color: var(--yt-live-chat-sponsor-color); */
     /* --yt-formatted-string-deemphasize-color: var(--yt-live-chat-mention-background-color); */
@@ -875,7 +880,7 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string {
 }
 /*thumbnail border radius*/
 img#img {
-	border-radius: 24px !important;
+	border-radius: 2px !important;
 }
 /*save to (playlist) container backdrop filter*/
 paper-dialog.style-scope.ytd-popup-container {
