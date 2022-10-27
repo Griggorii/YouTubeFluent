@@ -1,8 +1,13 @@
 /*TO TURN OFF AUTO HIDE SIDEBAR REMOVE THE BELOW CODE AND TURN OFF THE JAVASCRIPT CODE*/
    /* griggorii test */
-.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
-    color: #fff !important;
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+    color: var(--yt-spec-text-primary-inverse);
     background-color: #c00 !important;
+}
+   /* griggorii test */
+yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT][selected], yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER][selected] {
+    /* background-color: #0f0f0f !important;*/
+    color: var(--yt-spec-text-primary-inverse) !important;
 }
    /* griggorii test */
 ytd-button-renderer {
