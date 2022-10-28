@@ -750,7 +750,7 @@ yt-live-chat-message-input-renderer {
 }
 /*live chat bar delete*/
 yt-live-chat-renderer {
-	border-radius: 24px !important;
+	border-radius: 14px !important;
 }
 /*channel sub button (in video / bottom right) border radius / backdrop filter / color*/
 .iv-branding .branding-context-container-inner {
