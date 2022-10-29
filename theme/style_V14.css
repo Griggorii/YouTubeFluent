@@ -11,6 +11,10 @@
    /* griggorii test */
 .yt-spec-button-shape-next {
 }
+   /* griggorii test */
+html[darker-dark-theme][dark], [darker-dark-theme] [dark] {
+    --yt-spec-text-primary: #ffffff80 !important;
+}
 ytd-button-renderer #ytd-toggle-button-renderer.style-default-active * {
     background-color: #8664641c !important;
     border-radius: 24px !important;
@@ -984,14 +988,6 @@ ytd-rich-metadata-renderer.style-scope.ytd-rich-metadata-row-renderer {
 /*live chat bottom background color*/
 yt-live-chat-message-input-renderer {
 	background: rgba(0, 0, 0, 0) !important;
-}
-/*live chat bar delete*/
-#input-panel.yt-live-chat-renderer::after {
-	height: 0px !important;
-}
-/*live chat bar delete*/
-yt-live-chat-renderer {
-	border-radius: 14px !important;
 }
 /*channel sub button (in video / bottom right) border radius / backdrop filter / color*/
 .iv-branding .branding-context-container-inner {
