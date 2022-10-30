@@ -1,5 +1,17 @@
 /*griggorii youtube UI 2023 copyright*/
    /* griggorii test */
+ytd-comment-replies-renderer #creator-thumbnail.ytd-comment-replies-renderer yt-img-shadow.ytd-comment-replies-renderer {
+    width: 1px !important;
+    height: 1px !important;
+}
+   /* griggorii test */
+paper-ripple {
+    top: -3px !important;
+    left: -11px !important;
+    right: -5px !important;
+    bottom: 5px !important;
+}
+   /* griggorii test */
 .yt-spec-button-shape-next--size-m * {
 }
    /* griggorii test */
