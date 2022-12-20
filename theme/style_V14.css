@@ -2,7 +2,6 @@
  /* griggorii fix test important transparent */
 yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT][selected], yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER][selected] {
     background-color: #0f0f0f !important;
-    color: transparent !important;
 }
    /* griggorii test */
 ytd-comment-replies-renderer #creator-thumbnail.ytd-comment-replies-renderer yt-img-shadow.ytd-comment-replies-renderer {
