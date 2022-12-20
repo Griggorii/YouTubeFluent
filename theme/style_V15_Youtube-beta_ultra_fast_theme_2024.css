@@ -186,3 +186,7 @@ ytd-guide-entry-renderer[active] {
     color: #c00 !important;
     background-color: transparent !important;
 }
+/*thumbnail border radius griggorii 24px default 2*/
+img#img {
+	border-radius: 24px !important;
+}

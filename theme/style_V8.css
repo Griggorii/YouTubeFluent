@@ -889,9 +889,9 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string {
 	border-radius: 24px !important;
 	color: #e4e4e4 !important;
 }
-/*thumbnail border radius*/
+/*thumbnail border radius griggorii 24px default 2*/
 img#img {
-	border-radius: 2px !important;
+	border-radius: 24px !important;
 }
 /*save to (playlist) container backdrop filter*/
 paper-dialog.style-scope.ytd-popup-container {
