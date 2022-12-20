@@ -206,23 +206,40 @@ img#img {
     background-color: #000000e0 !important;
 }
    /* griggorii transparent theme dark test hsla */
+html[system-icons][dark], html[system-icons] [dark] {
+    --yt-spec-icon-inactive: #fff !important;
+    --yt-spec-icon-disabled: #717171 !important;
+    --yt-spec-brand-icon-inactive: #fff !important;
+    --yt-spec-text-primary: #f1f1f1 !important;
+    --yt-spec-text-primary-inverse: #0f0f0f !important;
+}
 html[darker-dark-theme][dark], [darker-dark-theme] [dark] {
     --yt-spec-text-primary: #f1f1f1 !important;
-    --yt-spec-text-primary-inverse: #0f0f0f2b !important;
-    --ytd-searchbox-border-color: #88888866 !important;
+    --ytd-searchbox-border-color: #909090 !important;
     --ytd-searchbox-legacy-border-color: #3030302e !important;
-    --ytd-searchbox-legacy-border-shadow-color: #00000000 !important;
-    --ytd-searchbox-legacy-button-color: #ffffff14 !important;
     --ytd-searchbox-legacy-button-border-color: #30303030 !important;
     --ytd-searchbox-legacy-button-focus-color: #ffffff14 !important;
-    --ytd-searchbox-legacy-button-hover-color: #ffffff14 !important;
-    --ytd-searchbox-legacy-button-hover-border-color: #3030302e;
-    --ytd-searchbox-legacy-button-icon-color: hsla(0, 100%, 100%, 0;--ytd-searchbox-background: hsl(0deg 0% 7% / 18%);7%);
+    --ytd-searchbox-legacy-button-hover-color: #ffffff !important;
+    --ytd-searchbox-legacy-button-hover-border-color: #3030302e !important;
+    --ytd-searchbox-legacy-button-icon-color: hsla(0, 100%, 100%, 0; --ytd-searchbox-background: hsl(0deg 0% 7% / 18%);7%) !important;
     --ytd-searchbox-background: #1212122e !important;
     --yt-spec-base-background: #0f0f0f57 !important;
     --yt-spec-raised-background: #212121 !important;
     --yt-spec-menu-background: #282828 !important;
     --yt-spec-inverted-background: #f1f1f1 !important;
+}
+html[dark], [dark] {
+    --ytd-searchbox-border-color: #ffffff !important;
+    --ytd-searchbox-legacy-border-color: #303030 !important;
+    --ytd-searchbox-legacy-border-shadow-color: hsla(0, 0%, 0%, 0) !important;
+    --ytd-searchbox-legacy-button-color: hsla(0, 0%, 100%, 0.08); !important;
+    --ytd-searchbox-legacy-button-border-color: hsl(0, 0%, 18.82%) !important;
+    --ytd-searchbox-legacy-button-focus-color: hsla(0, 0%, 100%, 0.08) !important;
+    --ytd-searchbox-legacy-button-hover-color: hsla(0, 0%, 100%, 0.08) !important;
+    --ytd-searchbox-legacy-button-hover-border-color: hsl(0, 0%, 18.82%) !important;
+    --ytd-searchbox-legacy-button-icon-color: hsla(0, 100%, 100%, 0.5) !important;
+    --ytd-searchbox-background: hsl(0, 0%, 7%) !important;
+    --ytd-searchbox-text-color: hsla(0, 100%, 100%, 0.88) !important;
 }
 .vk-box {
     height: auto !important;
