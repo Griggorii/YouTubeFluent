@@ -10,10 +10,10 @@
     color: #c00 !important;
     background-color: transparent !important;
 }
-   /* griggorii test */
+ /* griggorii fix test important transparent */
 yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT][selected], yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER][selected] {
-    /* background-color: #0f0f0f !important;*/
-    color: var(--yt-spec-text-primary-inverse) !important;
+    background-color: #0f0f0f !important;
+    color: transparent !important;
 }
    /* griggorii test */
 ytd-button-renderer {

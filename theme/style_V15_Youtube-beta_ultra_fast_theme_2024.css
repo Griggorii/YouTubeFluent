@@ -1,4 +1,9 @@
 /*griggorii youtube UI 2024 project ultra fast theme 2024 mobile or tablet or all device copyright*/
+ /* griggorii fix test important transparent */
+yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT][selected], yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER][selected] {
+    background-color: #0f0f0f !important;
+    color: transparent !important;
+}
    /* griggorii test */
 .yt-spec-touch-feedback-shape__fill {
     will-change: opacity !important;
