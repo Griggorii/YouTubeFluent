@@ -1126,16 +1126,19 @@ ytd-playlist-video-renderer {
 paper-button.ytd-subscribe-button-renderer {
 	border-radius: 24px !important;
 }
-/*searchbox border radius*/
+/*search icon background color editor griggorii*/
 #search-icon-legacy.ytd-searchbox {
 	border-radius: 0px 18px 18px 0px !important;
+	background-color: rgba(101, 100, 100, 0.24) !important;
 }
 #items.yt-horizontal-list-renderer>ytd-post-renderer.yt-horizontal-list-renderer {
 	border-radius: 24px !important;
 }
-/*searchbox border radius*/
+/*borderless , color search bar editor griggorii*/
 #container.ytd-searchbox {
+	border: none !important;
 	border-radius: 18px 0px 0px 18px !important;
+        /*background-color: #332c2c21 !important;*/
 }
 /*thumbnail border radius*/
 .yt-simple-endpoint {
@@ -1474,3 +1477,7 @@ html, [light] {
    .yt-formatted-string[style-target="bold"] {
 	 font-weight: 400;
    }
+ /* griggorii test effect click button */
+.yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {
+    background-color: #000000e0 !important;
+}
