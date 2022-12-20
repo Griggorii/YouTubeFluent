@@ -181,3 +181,8 @@ ytd-thumbnail-overlay-time-status-renderer {
 ytd-guide-entry-renderer[active] {
 	border-radius: 24px !important;
 }
+   /* griggorii fix subscr short */
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
+    color: #c00 !important;
+    background-color: transparent !important;
+}
