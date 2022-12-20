@@ -194,7 +194,7 @@ img#img {
 #container.ytd-searchbox {
 	border: none !important;
 	border-radius: 18px 0px 0px 18px !important;
-        /*background-color: #332c2c21 !important;*/
+        background-color: #332c2c21 !important;
 }
 /*search icon background color editor griggorii*/
 #search-icon-legacy.ytd-searchbox {
