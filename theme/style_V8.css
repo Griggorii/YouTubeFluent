@@ -1,10 +1,9 @@
-/*TO TURN OFF AUTO HIDE SIDEBAR REMOVE THE BELOW CODE AND TURN OFF THE JAVASCRIPT CODE*/
-   /* griggorii subscr fix */
-   /* griggorii test */
+/*griggorii youtube UI 2023 copyright*/
+ /* griggorii fix test important transparent delete all parametr lag change dark theme or light */
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     border-radius: 24px !important;
-    border: none !important;
 }
+   /* griggorii subscr fix */
 .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
     /* color: var(--yt-spec-text-primary-inverse); */
     color: #fff !important;
@@ -14,10 +13,6 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
 .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
     color: #c00 !important;
     background-color: transparent !important;
-}
- /* griggorii fix test important transparent */
-yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT][selected], yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER][selected] {
-    background-color: #0f0f0f !important;
 }
    /* griggorii test */
 ytd-button-renderer {
@@ -213,14 +208,6 @@ iron-selector{
 /*feed filter space remove*/
 #scroll-container.ytd-feed-filter-chip-bar-renderer {
 	margin-top: -1px !important;
-}
-/*feed filter options color*/
-yt-chip-cloud-chip-renderer[chip-style="STYLE_DEFAULT"], yt-chip-cloud-chip-renderer[chip-style="STYLE_HOME_FILTER"] {
-	background-color: rgba(49, 49, 49, 0.78);
-}
-/*feed filter options color when hover*/
-yt-chip-cloud-chip-renderer.style-scope.ytd-feed-filter-chip-bar-renderer:hover {
-	background-color: #545454c7;
 }
 /*feed filter border delete*/
 ytd-feed-filter-chip-bar-renderer {
