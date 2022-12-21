@@ -525,7 +525,7 @@ ytd-thumbnail-overlay-hover-text-renderer {
 	background-color: rgba(0, 0, 0, 0.5) !important;
 }
 /*channel menu item border radius*/
-/*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme/style.css */
+/*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme */
 ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-item.list-item.style-scope.ytd-account-settings {
 	border-radius: 2px !important;
 }

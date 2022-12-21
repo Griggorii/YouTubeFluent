@@ -243,6 +243,18 @@ html[dark], [dark] {
     --ytd-searchbox-background: hsl(0, 0%, 7%) !important;
     --ytd-searchbox-text-color: hsla(0, 100%, 100%, 0.88) !important;
 }
+/*thumbnail scale effect griggorii + 15 default scale 1.05 */
+ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
+	transform: scale(1.20) !important;
+        transition: 0.9s !important;
+}
+/*channel menu item border radius*/
+/*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme */
+ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-item.list-item.style-scope.ytd-account-settings {
+	border-radius: 2px !important;
+}
+
+/* griggorii beta theme dark keyboard */
 .vk-box {
     height: auto !important;
     background-color: #282829 !important;
@@ -255,8 +267,4 @@ html[dark], [dark] {
 .vk-t {
     color: #ffffff !important;
 }
-/*thumbnail scale effect griggorii + 15 default scale 1.05 */
-ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
-	transform: scale(1.20) !important;
-        transition: 0.9s !important;
-}
+
