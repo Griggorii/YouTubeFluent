@@ -3,6 +3,7 @@
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     border-radius: 24px !important;
 }
+
    /* griggorii test */
 .yt-spec-touch-feedback-shape__fill {
     will-change: opacity !important;
@@ -127,10 +128,6 @@ ytd-playlist-video-renderer {
 paper-button.ytd-subscribe-button-renderer {
 	border-radius: 24px !important;
 }
-/*searchbox border radius*/
-#search-icon-legacy.ytd-searchbox {
-	border-radius: 0px 18px 18px 0px !important;
-}
 #items.yt-horizontal-list-renderer>ytd-post-renderer.yt-horizontal-list-renderer {
 	border-radius: 24px !important;
 }
@@ -187,14 +184,23 @@ img#img {
 }
 /*borderless , color search bar editor griggorii*/
 #container.ytd-searchbox {
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
+        box-shadow: !important;
 	border: none !important;
 	border-radius: 18px 0px 0px 18px !important;
         background-color: #332c2c21 !important;
+
 }
 /*search icon background color editor griggorii*/
 #search-icon-legacy.ytd-searchbox {
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
+        box-shadow: !important;
 	border-radius: 0px 18px 18px 0px !important;
-	background-color: rgba(101, 100, 100, 0.24) !important;
+	background-color: #332c2c21 !important;
 }
  /* griggorii test effect click button */
 .yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {

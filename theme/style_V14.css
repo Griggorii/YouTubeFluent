@@ -1337,17 +1337,25 @@ paper-button.ytd-subscribe-button-renderer {
 }
 /*search icon background color editor griggorii*/
 #search-icon-legacy.ytd-searchbox {
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
+        box-shadow: !important;
 	border-radius: 0px 18px 18px 0px !important;
-	background-color: rgba(101, 100, 100, 0.24) !important;
-}
-#items.yt-horizontal-list-renderer>ytd-post-renderer.yt-horizontal-list-renderer {
-	border-radius: 24px !important;
+	background-color: #332c2c21 !important;
 }
 /*borderless , color search bar editor griggorii*/
 #container.ytd-searchbox {
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
+        box-shadow: !important;
 	border: none !important;
 	border-radius: 18px 0px 0px 18px !important;
         /*background-color: #332c2c21 !important;*/
+}
+#items.yt-horizontal-list-renderer>ytd-post-renderer.yt-horizontal-list-renderer {
+	border-radius: 24px !important;
 }
 /*thumbnail border radius*/
 .yt-simple-endpoint {
