@@ -24,8 +24,10 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     background-color: #0f0f0f !important;
     border-color: transparent !important;
 }
+/*griggorii close playlist exit green change idea original #3ea6ff*/
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text{
-    color: #3ea6ff !important;
+    color: #107516 !important;
+    /*color: #3ea6ff !important;*/
 }
 /*griggorii name video*/
 ytd-watch-metadata {
