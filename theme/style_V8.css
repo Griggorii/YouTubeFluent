@@ -630,9 +630,9 @@ span.ytp-videowall-still-info-title {
 ytd-thumbnail, #thumbnail.ytd-playlist-thumbnail, .ytp-show-tiles .ytp-videowall-still {
 	transition: all 0.25s !important;
 }
-/*thumbnail scale effect griggorii + 15 default scale 1.05 */
+/*thumbnail scale effect griggorii + 8 default scale 1.05 */
 ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
-	transform: scale(1.20) !important;
+	transform: scale(1.13) !important;
         transition: 0.9s !important;
         display: block !important;
         z-index:99 !important; 
