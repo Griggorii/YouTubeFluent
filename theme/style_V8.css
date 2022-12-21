@@ -262,6 +262,10 @@ ytd-thumbnail.ytd-rich-movie-renderer:before {
 .playlist-items.ytd-playlist-panel-renderer {
 	border-radius: 24px 24px 24px 24px !important;
 }
+/* griggorii inheritance texture color preview*/
+ytd-playlist-panel-renderer[use-color-palette] {
+    --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;
+}
 /*live badge text*/
 .ytp-videowall-still[data-is-live=true] .ytp-videowall-still-info-live {
 	color: #272727 !important;

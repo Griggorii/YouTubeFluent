@@ -1329,6 +1329,10 @@ div#container {
 .header.style-scope.ytd-playlist-panel-renderer {
 	border-radius: 24px 24px 24px 24px !important;
 }
+/* griggorii inheritance texture color preview*/
+ytd-playlist-panel-renderer[use-color-palette] {
+    --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;
+}
 /*video (playlist) border radius*/
 ytd-playlist-video-renderer {
 	border-radius: 24px !important;

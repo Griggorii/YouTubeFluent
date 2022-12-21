@@ -253,6 +253,10 @@ ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .y
 ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-item.list-item.style-scope.ytd-account-settings {
 	border-radius: 2px !important;
 }
+/* griggorii inheritance texture color preview*/
+ytd-playlist-panel-renderer[use-color-palette] {
+    --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;
+}
 
 /* griggorii beta theme dark keyboard */
 .vk-box {
