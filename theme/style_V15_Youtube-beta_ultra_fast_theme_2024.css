@@ -243,12 +243,13 @@ html[dark], [dark] {
     --ytd-searchbox-background: hsl(0, 0%, 7%) !important;
     --ytd-searchbox-text-color: hsla(0, 100%, 100%, 0.88) !important;
 }
-/*thumbnail scale effect griggorii + 8 default scale 1.05 */
+/*thumbnail scale effect griggorii + 15 default scale 1.05 */
 ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
 	transform: scale(1.13) !important;
         transition: 0.9s !important;
         display: block !important;
         z-index:99 !important; 
+
 }
 /*channel menu item border radius*/
 /*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme */
@@ -266,6 +267,38 @@ ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS] {
 }
 :focus {
     outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+/* griggorii short menu edit element style */
+element.style {
+}
+<style>
+#actions.ytd-global-reel-player-overlay-renderer {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    --yt-button-text-transform: none !important;
+    max-width: 100% !important;
+    pointer-events: auto !important;
+    align-items: start !important;
+    flex-wrap: wrap !important;
+}
+.overlay.ytd-global-reel-player-overlay-renderer {
+    display: flex !important;
+    flex-direction: column !important;
+    width: var(--ytd-shorts-side-overlay-width) !important;
+    max-width: var(--ytd-shorts-max-side-overlay-width) !important;
+    height: 100% !important;
+    justify-content: flex-end !important;
+    pointer-events: auto !important;
+}
+
+ytd-global-reel-player-overlay-renderer {
+	transform: scale(0.9) !important;
+        transition: 0.9s !important;
+    --ytd-shorts-max-side-overlay-width: auto !important;
+    pointer-events: none !important;
+    justify-content: flex-end !important;
 }
 
 /* griggorii beta theme dark keyboard */
