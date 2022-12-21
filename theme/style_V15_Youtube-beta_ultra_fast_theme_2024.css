@@ -260,6 +260,11 @@ ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-i
 ytd-playlist-panel-renderer[use-color-palette] {
     --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;
 }
+ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS] {
+    background-color: var(--yt-spec-static-brand-white) !important;
+    color: #009688 !important;
+    z-index: 1 !important;
+}
 :focus {
     outline: -webkit-focus-ring-color auto 0px !important;
 }
