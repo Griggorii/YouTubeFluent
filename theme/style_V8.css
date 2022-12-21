@@ -1,4 +1,5 @@
 /*griggorii youtube UI 2023 copyright*/
+/*https://github.com/Griggorii/YouTubeFluent*/
  /* griggorii fix test important transparent delete all parametr lag change dark theme or light */
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     border-radius: 24px !important;
@@ -622,9 +623,10 @@ span.ytp-videowall-still-info-title {
 ytd-thumbnail, #thumbnail.ytd-playlist-thumbnail, .ytp-show-tiles .ytp-videowall-still {
 	transition: all 0.25s !important;
 }
-/*thumbnail scale effect*/
+/*thumbnail scale effect griggorii + 15 default scale 1.05 */
 ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
-	transform: scale(1.05) 
+	transform: scale(1.20) !important;
+        transition: 0.9s !important;
 }
 ytd-video-preview {
 	padding: 0px !important;
