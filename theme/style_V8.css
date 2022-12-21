@@ -266,6 +266,9 @@ ytd-thumbnail.ytd-rich-movie-renderer:before {
 ytd-playlist-panel-renderer[use-color-palette] {
     --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;
 }
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
 /*live badge text*/
 .ytp-videowall-still[data-is-live=true] .ytp-videowall-still-info-live {
 	color: #272727 !important;
@@ -631,6 +634,8 @@ ytd-thumbnail, #thumbnail.ytd-playlist-thumbnail, .ytp-show-tiles .ytp-videowall
 ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
 	transform: scale(1.20) !important;
         transition: 0.9s !important;
+        display: block !important;
+        z-index:99 !important; 
 }
 ytd-video-preview {
 	padding: 0px !important;

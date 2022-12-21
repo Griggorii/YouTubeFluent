@@ -871,6 +871,8 @@ ytd-thumbnail, #thumbnail.ytd-playlist-thumbnail, .ytp-show-tiles .ytp-videowall
 ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
 	transform: scale(1.20) !important;
         transition: 0.9s !important;
+        display: block !important;
+        z-index:99 !important; 
 }
 ytd-video-preview {
 	padding: 0px !important;
@@ -1332,6 +1334,9 @@ div#container {
 /* griggorii inheritance texture color preview*/
 ytd-playlist-panel-renderer[use-color-palette] {
     --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
 }
 /*video (playlist) border radius*/
 ytd-playlist-video-renderer {

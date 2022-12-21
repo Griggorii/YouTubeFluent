@@ -24,10 +24,8 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     background-color: #0f0f0f !important;
     border-color: transparent !important;
 }
-/*griggorii close playlist exit green change idea original #3ea6ff*/
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text{
     color: #107516 !important;
-    /*color: #3ea6ff !important;*/
 }
 /*griggorii name video*/
 ytd-watch-metadata {
@@ -249,6 +247,9 @@ html[dark], [dark] {
 ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
 	transform: scale(1.20) !important;
         transition: 0.9s !important;
+        display: block !important;
+        z-index:99 !important; 
+
 }
 /*channel menu item border radius*/
 /*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme */
@@ -258,6 +259,9 @@ ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-i
 /* griggorii inheritance texture color preview*/
 ytd-playlist-panel-renderer[use-color-palette] {
     --yt-active-playlist-panel-background-color: var( --yt-lightsource-section4-color ) !important;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
 }
 
 /* griggorii beta theme dark keyboard */
