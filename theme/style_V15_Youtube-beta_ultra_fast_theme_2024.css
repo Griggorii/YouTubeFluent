@@ -318,6 +318,12 @@ ytd-global-reel-player-overlay-renderer {
     justify-content: flex-end !important;
 }
 
+/* double fix test subscr buitton player playlist*/
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
+    color: #fff !important;
+    background-color: #c00 !important;
+}
+
 /* griggorii beta theme dark keyboard */
 .vk-box {
     height: auto !important;
