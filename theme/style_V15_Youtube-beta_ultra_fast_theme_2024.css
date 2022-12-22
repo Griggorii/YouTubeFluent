@@ -1,5 +1,6 @@
-/*griggorii youtube UI 2024 project ultra fast theme 2024 mobile or tablet or all device copyright*/
+/*griggorii youtube UI 2024 project ultra fast theme 2024 mobile or tablet or all device copyright CC BY-SA 4.0*/
 /*https://github.com/Griggorii/YouTubeFluent*/
+/*Проект почти завершен donte or support sberbank rub 4276 4001 0004 2457 by Griggorii*/
  /* griggorii fix test important transparent delete all parametr lag change dark theme or light */
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     border-radius: 24px !important;
@@ -325,6 +326,51 @@ ytd-global-reel-player-overlay-renderer {
     color: #fff !important;
     background-color: #c00 !important;
 }
+
+   /* griggorii test subtitles */
+ytd-watch-metadata:not([modern-metapanel-order]) #owner.ytd-watch-metadata {
+    border: 1px solid var(--yt-spec-10-percent-layer) !important;
+    border-radius: 24px !important;
+    padding: 0 4px 0 12px !important;
+}
+/*Caption Window BG and Blur*/
+  .caption-window {
+   background-color: rgba(50, 50, 50, .2) !important;/*CHANGE THE DECIMAL VALUE TO ADJUST THE DARKNESS OF THE CAPTION WINDOW*/
+   backdrop-filter: blur(2px) !important;
+   border-radius: 24px !important;
+  }
+/*subtitles bg color / backdrop filter*/
+.caption-window {
+	text-align: center !important;
+	width: auto !important;
+	left: 50% !important;
+	margin-left: 0px !important;
+	transform: translate(-50%, 0%) !important;
+	padding: 2px !important;
+}
+
+
+
+ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL] #time.ytd-macro-markers-list-item-renderer {
+	border-radius: 24px !important;
+}
+
+/* griggorii blur assistant preview video */
+span.ytd-thumbnail-overlay-loading-preview-renderer{
+	border-radius: 8px !important;
+	background-color: rgb(0 0 0 / 45%) !important;
+	backdrop-filter: blur(10px) !important;
+}
+
+/* griggorii blur left panel | лев панель youtube пока заблокировано */
+/* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */
+    /*backdrop-filter: blur(10px) !important;*/
+    /*-webkit-backdrop-filter: blur(10px) !important;*/
+    /*background: rgb(35 35 35 / 0) !important;*/
+    /*overflow: hidden !important;*/
+}
+
+
 
 /* griggorii beta theme dark keyboard */
 .vk-box {
