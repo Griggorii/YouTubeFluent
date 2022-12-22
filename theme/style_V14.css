@@ -1433,13 +1433,13 @@ ytd-comment-renderer:not([comment-style=backstage-comment])[is-reply] #author-th
 a.ytp-title-channel-logo {
 	border-radius: 24px !important;
 }
-/*movie player border radius / shadow*/
+/*movie player border radius / shadow griggorii 24 aggresive circle bad change loyalty 18px*/
 .ytd-video-preview, .ytp-small-mode {
-	border-radius: 24px !important;
+	border-radius: 18px !important;
 }
 /*movie player border radius / shadow*/
 #movie_player, .video-stream, .ytp-small-mode {
-	border-radius: 24px !important;
+	border-radius: 18px !important;
 	box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.5);
 }
 /*miniplayer margin*/
