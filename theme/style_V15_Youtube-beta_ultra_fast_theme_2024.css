@@ -24,8 +24,11 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     background-color: #0f0f0f !important;
     border-color: transparent !important;
 }
+/* griggorii color comment or close player */
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text{
-    color: #107516 !important;
+    color: #0066ff !important;
+    /*color: #107516 !important;*/
+    /*color: #0657d4 !important;*/
 }
 /*griggorii name video*/
 ytd-watch-metadata {
@@ -179,9 +182,10 @@ ytd-guide-entry-renderer[active] {
     color: #c00 !important;
     background-color: transparent !important;
 }
-/*thumbnail border radius griggorii 24px default 2*/
+/*thumbnail border radius griggorii 24px default 2 , default change lag short text 24>2*/
 img#img {
-	border-radius: 24px !important;
+	border-radius: 2px !important;
+	/*border-radius: 24px !important;*/
 }
 /*borderless , color search bar editor griggorii*/
 #container.ytd-searchbox {
@@ -272,6 +276,16 @@ ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS] {
 /* griggorii short menu edit element style */
 element.style {
 }
+overlay-renderer[modern][vertical] #actions.ytd-reel-player-overlay-renderer {
+    width: 48px !important;
+    padding: 0 2px !important;
+    justify-content: center !important;
+}
+ytd-reel-player-overlay-renderer[vertical] #actions.ytd-reel-player-overlay-renderer {
+    display: flexbox !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
 <style>
 #actions.ytd-global-reel-player-overlay-renderer {
     display: flex !important;
@@ -292,11 +306,10 @@ element.style {
     justify-content: flex-end !important;
     pointer-events: auto !important;
 }
-
 ytd-global-reel-player-overlay-renderer {
-	transform: scale(0.9) !important;
-        transition: 0.9s !important;
     --ytd-shorts-max-side-overlay-width: auto !important;
+    transform: scale(0.9) !important;
+    transition: 0.9s !important;
     pointer-events: none !important;
     justify-content: flex-end !important;
 }

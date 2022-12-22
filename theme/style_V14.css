@@ -336,7 +336,8 @@ ytd-toggle-button-renderer.style-text[is-paper-button] {
     color: #040ad8 !important;
 }
 a.yt-formatted-string {
-    color: #ff8f00 !important;
+   color: #0066ff !important;
+   /*color: #ff8f00 !important;*/
 }
 #channel-container.ytd-c4-tabbed-header-renderer, #tabs-container.ytd-c4-tabbed-header-renderer {
     background-color: rgb(31 31 31 / 0%) !important;
@@ -1112,9 +1113,10 @@ a.yt-simple-endpoint.style-scope.yt-formatted-string {
 	border-radius: 24px !important;
 	color: #e4e4e4 !important;
 }
-/*thumbnail border radius griggorii 24px default 2*/
+/*thumbnail border radius griggorii 24px default 2 , default change lag short text 24>2*/
 img#img {
-	border-radius: 24px !important;
+	border-radius: 2px !important;
+	/*border-radius: 24px !important;*/
 }
 /*save to (playlist) container backdrop filter*/
 paper-dialog.style-scope.ytd-popup-container {
@@ -1681,4 +1683,45 @@ html, [light] {
  /* griggorii test effect click button */
 .yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {
     background-color: #000000e0 !important;
+}
+
+/* griggorii short menu edit element style */
+element.style {
+}
+overlay-renderer[modern][vertical] #actions.ytd-reel-player-overlay-renderer {
+    width: 48px !important;
+    padding: 0 2px !important;
+    justify-content: center !important;
+}
+ytd-reel-player-overlay-renderer[vertical] #actions.ytd-reel-player-overlay-renderer {
+    display: flexbox !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+<style>
+#actions.ytd-global-reel-player-overlay-renderer {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    --yt-button-text-transform: none !important;
+    max-width: 100% !important;
+    pointer-events: auto !important;
+    align-items: start !important;
+    flex-wrap: wrap !important;
+}
+.overlay.ytd-global-reel-player-overlay-renderer {
+    display: flex !important;
+    flex-direction: column !important;
+    width: var(--ytd-shorts-side-overlay-width) !important;
+    max-width: var(--ytd-shorts-max-side-overlay-width) !important;
+    height: 100% !important;
+    justify-content: flex-end !important;
+    pointer-events: auto !important;
+}
+ytd-global-reel-player-overlay-renderer {
+    --ytd-shorts-max-side-overlay-width: auto !important;
+    transform: scale(0.9) !important;
+    transition: 0.9s !important;
+    pointer-events: none !important;
+    justify-content: flex-end !important;
 }
