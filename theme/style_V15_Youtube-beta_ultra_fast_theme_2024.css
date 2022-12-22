@@ -5,7 +5,7 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     border-radius: 24px !important;
 }
 
-   /* griggorii test */
+   /*griggorii button outline | кнопка входа*/
 .yt-spec-touch-feedback-shape__fill {
     will-change: opacity !important;
     opacity: 0 !important;
@@ -17,12 +17,16 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     left: 0 !important;
 }
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
-    color: #0657d4 !important;
+    color: #0066ff !important;
+    /*color: #0657d4 !important;*/
+    /*color: #107516 !important;*/
     border-color: var(--yt-spec-outline);
 }
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline:hover{
-    background-color: #0f0f0f !important;
+    background-color: #0066ffa6 !important;
+    /*background-color: #0f0f0f !important;*/
     border-color: transparent !important;
+
 }
 /* griggorii color comment or close player */
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text{
