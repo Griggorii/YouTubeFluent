@@ -7,6 +7,37 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
 }
 
    /*griggorii button outline | knopka vxoda otvetov itd*/
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
+color: var(--yt-spec-text-primary-inverse) !important;
+}
+.yt-spec-button-shape-next--size-m {
+    padding: 0 16px !important;
+    height: 36px !important;
+    font-size: 14px !important;
+    line-height: 36px !important;
+    border-radius: 18px !important;
+}
+.yt-spec-button-shape-next {
+    position: relative !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+    min-width: 0 !important;
+    text-transform: none !important;
+    font-family: "Roboto","Arial",sans-serif !important;
+    cursor: pointer !important;
+    outline-width: 0 !important;
+    box-sizing: border-box !important;
+    background: none !important;
+    text-decoration: none !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+    -webkit-tap-highlight-color: transparent;
+    flex: 1 !important;
+    flex-basis: 0.000000001px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 .yt-spec-touch-feedback-shape__fill {
     will-change: opacity !important;
     opacity: 0 !important;
