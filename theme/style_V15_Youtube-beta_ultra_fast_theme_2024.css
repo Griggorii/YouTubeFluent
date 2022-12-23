@@ -27,7 +27,7 @@ color: var(--yt-spec-text-primary-inverse) !important;
     cursor: pointer !important;
     outline-width: 0 !important;
     box-sizing: border-box !important;
-    background: none !important;
+    /*background: none !important;*/
     text-decoration: none !important;
     -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
     -webkit-tap-highlight-color: transparent;
@@ -407,6 +407,8 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
     /*overflow: hidden !important;*/
 }
 
+ytd-comments-entry-point-header-renderer:not([modern-metapanel]) {
+}
 
 .html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
     /*background-color: #8e8e8e;*/
