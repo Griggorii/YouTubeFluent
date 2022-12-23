@@ -39,14 +39,14 @@ color: var(--yt-spec-text-primary-inverse) !important;
     justify-content: center !important;
 }
 .yt-spec-touch-feedback-shape__fill {
-    will-change: opacity !important;
-    opacity: 0 !important;
-    border-radius: inherit !important;
-    position: absolute !important;
-    top: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    left: 0 !important;
+    /*will-change: opacity !important;*/
+    /*opacity: 0 !important;*/
+    /*border-radius: inherit !important;*/
+    /*position: absolute !important;*/
+    /*top: 0 !important;*/
+    /*right: 0 !important;*/
+    /*bottom: 0 !important;*/
+    /*left: 0 !important;*/
 }
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
     color: #0066ff !important;
