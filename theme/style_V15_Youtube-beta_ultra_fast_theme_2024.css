@@ -1,12 +1,12 @@
 /*griggorii youtube UI 2024 project ultra fast theme 2024 mobile or tablet or all device copyright CC BY-SA 4.0*/
 /*https://github.com/Griggorii/YouTubeFluent*/
 /*Проект почти завершен donte or support sberbank rub 4276 4001 0004 2457 by Griggorii*/
- /* griggorii fix test important transparent delete all parametr lag change dark theme or light */
+/* griggorii fix test important transparent delete all parametr lag change dark theme or light */
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     border-radius: 24px !important;
 }
 
-   /*griggorii button outline | кнопка входа*/
+   /*griggorii button outline | \u043a\u043d\u043e\u043f\u043a\u0430 \u0432\u0445\u043e\u0434\u0430*/
 .yt-spec-touch-feedback-shape__fill {
     will-change: opacity !important;
     opacity: 0 !important;
@@ -218,6 +218,12 @@ img#img {
 .yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {
     background-color: #000000e0 !important;
 }
+
+/*progress bar / next button preview border radius griggorii 24 aggresive circle bad change loyalty 18px*/
+.ytp-tooltip.ytp-bottom, .ytp-tooltip-bg, a.ytp-next-button.ytp-button {
+	border-radius: 18px !important;
+}
+
    /* griggorii transparent theme dark test hsla */
 html[system-icons][dark], html[system-icons] [dark] {
     --yt-spec-icon-inactive: #fff !important;
@@ -362,7 +368,7 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
 	backdrop-filter: blur(10px) !important;
 }
 
-/* griggorii blur left panel | лев панель youtube пока заблокировано */
+/* griggorii blur left panel | \u043b\u0435\u0432 \u043f\u0430\u043d\u0435\u043b\u044c youtube \u043f\u043e\u043a\u0430 \u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u043e */
 /* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */
     /*backdrop-filter: blur(10px) !important;*/
     /*-webkit-backdrop-filter: blur(10px) !important;*/
