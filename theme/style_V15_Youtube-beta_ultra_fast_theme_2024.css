@@ -377,6 +377,12 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
 }
 
 
+.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
+    /*background-color: #8e8e8e;*/
+    /*border: 1px solid #424242;*/
+    border-radius: 24px !important;
+}
+
 
 /* griggorii beta theme dark keyboard */
 .vk-box {
