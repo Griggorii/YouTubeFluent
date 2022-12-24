@@ -1,5 +1,5 @@
 /*griggorii youtube UI 2024 project ultra fast theme 2024 mobile or tablet or all device copyright CC BY-SA 4.0*/
-/*https://github.com/Griggorii/YouTubeFluent*/
+/*https://github.com/Griggorii/YouTubeFluent | style_V15_Youtube-beta_ultra_fast_theme_2024.css*/
 /*Проект почти завершен donte or support sberbank rub 4276 4001 0004 2457 by Griggorii*/
 /* griggorii fix test important transparent delete all parametr lag change dark theme or light */
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
@@ -8,10 +8,7 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
 
    /*griggorii button outline | knopka vxoda otvetov itd*/
 .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
-    /* color: #fff; */
-    /* color: #fff !important; */
-    color: transparent !important;
-    background-color: #c00 !important;
+color: var(--yt-spec-text-primary-inverse) !important;
 }
 .yt-spec-button-shape-next--size-m {
     padding: 0 16px !important;
@@ -32,16 +29,6 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     box-sizing: border-box !important;
     /*background: none !important;*/
 }
-.yt-spec-touch-feedback-shape__fill {
-    /*will-change: opacity !important;*/
-    /*opacity: 0 !important;*/
-    /*border-radius: inherit !important;*/
-    /*position: absolute !important;*/
-    /*top: 0 !important;*/
-    /*right: 0 !important;*/
-    /*bottom: 0 !important;*/
-    /*left: 0 !important;*/
-}
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
     color: #0066ff !important;
     /*color: #0657d4 !important;*/
@@ -52,14 +39,15 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     background-color: #0066ffa6 !important;
     /*background-color: #0f0f0f !important;*/
     border-color: transparent !important;
-
 }
+
 /* griggorii color comment or close player */
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text{
     color: #0066ff !important;
     /*color: #107516 !important;*/
     /*color: #0657d4 !important;*/
 }
+
 /*griggorii name video*/
 ytd-watch-metadata {
     display: block !important;
@@ -239,9 +227,13 @@ img#img {
 	border-radius: 0px 18px 18px 0px !important;
 	background-color: #332c2c21 !important;
 }
- /* griggorii test effect click button */
+
+ /* griggorii test effect form shadow button */
 .yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {
-    background-color: #000000e0 !important;
+    background-color: #0303030d !important;
+}
+.yt-spec-touch-feedback-shape__fill {
+    /* opacity: 0; */
 }
 
 /*progress bar / next button preview border radius griggorii 24 aggresive circle bad change loyalty 18px*/
@@ -383,7 +375,7 @@ ytd-watch-metadata:not([modern-metapanel-order]) #owner.ytd-watch-metadata {
 
 
 ytd-macro-markers-list-item-renderer[layout=MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL] #time.ytd-macro-markers-list-item-renderer {
-	border-radius: 24px !important;
+	border-radius: 1px !important;
 }
 
 /* griggorii blur assistant preview video */
@@ -392,6 +384,7 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
 	background-color: rgb(0 0 0 / 45%) !important;
 	backdrop-filter: blur(10px) !important;
 }
+
 
 /* griggorii view the button Subscribe the appearance of your personal channel */
 .ytp-sb-subscribe.ytp-sb-disabled, .ytp-sb-unsubscribe.ytp-sb-disabled {
@@ -431,7 +424,7 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
 ytd-author-comment-badge-renderer {
     /*--ytd-author-comment-badge-name-color: var(--yt-spec-text-primary);*/
     /*--ytd-author-comment-badge-name-color: var(--yt-spec-text-primary) !important;*/
-    background-color: #ff0f00 !important;
+    background-color: #ff0000 !important;
 }
 
 /* griggorii blur left panel off */
