@@ -427,6 +427,13 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
     transform-origin: 0 0 !important;
 }
 
+   /*griggorii pinned comments in youtube color*/
+ytd-author-comment-badge-renderer {
+    /*--ytd-author-comment-badge-name-color: var(--yt-spec-text-primary);*/
+    /*--ytd-author-comment-badge-name-color: var(--yt-spec-text-primary) !important;*/
+    background-color: #ff0f00 !important;
+}
+
 /* griggorii blur left panel off */
 /* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */
     /*backdrop-filter: blur(10px) !important;*/
