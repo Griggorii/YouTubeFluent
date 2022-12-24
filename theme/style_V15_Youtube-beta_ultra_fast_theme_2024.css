@@ -390,6 +390,14 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
 	backdrop-filter: blur(10px) !important;
 }
 
+/* griggorii view the button Subscribe the appearance of your personal channel */
+.ytp-sb-subscribe.ytp-sb-disabled, .ytp-sb-unsubscribe.ytp-sb-disabled {
+    background-color: #c00 !important;
+}
+.ytp-sb-subscribe, .ytp-sb-unsubscribe {
+    border-radius: 24px !important;
+}
+
 /* griggorii blur left panel off */
 /* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */
     /*backdrop-filter: blur(10px) !important;*/
