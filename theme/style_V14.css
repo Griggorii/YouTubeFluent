@@ -322,7 +322,7 @@ var{
    /* Notify youtube 🔔 size griggorii fix */
 #contentWrapper > ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] {
     width: 370px;   }
-   }
+}
 #button.ytd-toggle-button-renderer yt-icon.ytd-toggle-button-renderer+yt-formatted-string.ytd-toggle-button-renderer {
     margin-left: var(--yt-string-icon-padding,8px);
 }

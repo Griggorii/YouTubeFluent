@@ -451,6 +451,11 @@ Style Attribute {
 	background-color: transparent !important;
 }
 
+/* Notify youtube 🔔 size griggorii fix */
+#contentWrapper > ytd-multi-page-menu-renderer[menu-style=multi-page-menu-style-type-notifications] {
+    width: 370px;   }
+}
+
 /* griggorii blur left panel off */
 /* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */
     /*backdrop-filter: blur(10px) !important;*/
