@@ -444,6 +444,13 @@ Style Attribute {
     --ytd-rich-grid-game-cards-per-row: 4 !important;
 }
 
+ /* griggorii copy backend setting V14 rounded ad widget */
+.ytp-exp-ppp-update .ytp-paid-content-overlay-link {
+	border-radius: 24px !important;
+	backdrop-filter: blur(10px) !important;
+	background-color: transparent !important;
+}
+
 /* griggorii blur left panel off */
 /* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */
     /*backdrop-filter: blur(10px) !important;*/
