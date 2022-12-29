@@ -1,5 +1,5 @@
 /*griggorii youtube UI 2024 project ultra fast theme 2024 mobile or tablet or all device copyright CC BY-SA 4.0*/
-/*https://github.com/Griggorii/YouTubeFluent | style_V15_Youtube-beta_ultra_fast_theme_2024.css*/
+/*https://github.com/Griggorii/YouTubeFluent | style_V15_Youtube_ultra_fast_theme_2024.csss*/
 /*Проект почти завершен donte or support sberbank rub 4276 4001 0004 2457 by Griggorii*/
 /* griggorii fix test important transparent delete all parametr lag change dark theme or light */
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
@@ -456,11 +456,6 @@ Style Attribute {
     width: 370px;   }
 }
 
- /* griggorii circle change border radius guide 10px > 24px */
-ytd-compact-link-renderer[compact-link-style=compact-link-style-type-settings-sidebar][guide-refresh] tp-yt-paper-item.ytd-compact-link-renderer {
-    --paper-item-focused-before-border-radius: 24px !important;
-}
-
 /* griggorii blur left panel off */
 /* #guide-content.ytd-app, ytd-app[background-color-update_] #guide-content.ytd-app, ytd-mini-guide-renderer.ytd-app { */
     /*backdrop-filter: blur(10px) !important;*/
@@ -478,6 +473,45 @@ ytd-comments-entry-point-header-renderer:not([modern-metapanel]) {
     border-radius: 24px !important;
 }
 
+#voice-search-button.ytd-masthead {
+	border-radius: 24px !important;
+	background-color: #ffffff00 !important;
+}
+/*thumbnail border radius*/
+a#thumbnail {
+	border-radius: 8px !important;
+}
+
+/* griggorii off cloud chipe <yt-chip-cloud-chip> html offline circle button google cloud  */
+/* griggorii test button border radius + color shadow */
+ytd-button-renderer #button.ytd-button-renderer * {
+    background-color: #ffffff00 !important;
+    border-radius: 24px !important;
+}
+ytd-button-renderer {
+    /* --paper-button-ink-color: var(--yt-live-chat-sponsor-color); */
+    /* --yt-formatted-string-deemphasize-color: var(--yt-live-chat-mention-background-color); */
+    /* vertical-align: middle; */
+    /* white-space: nowrap; */
+    /* font-size: var(--ytd-tab-system-font-size); */
+    font-size: 1.2rem !important;
+    font-family: "Roboto","Arial",sans-serif !important;
+}
+tp-yt-paper-button {
+    border-radius: 24px !important;
+}
+/*Smooth Scroll*/
+html {
+   scroll-behavior: smooth;
+    --yt-button-border-radius: 24px !important;
+}
+/* griggorii test green like activate*/
+ytd-toggle-button-renderer.style-default-active[is-paper-button][system-icons] {
+    color: #040ad8 !important;
+}
+ytd-toggle-button-renderer.style-text[is-icon-button] {
+    color: #107516 !important;
+}
 
 /* griggorii beta theme dark keyboard */
 .vk-box {
