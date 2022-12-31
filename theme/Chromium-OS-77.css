@@ -857,10 +857,10 @@ button.link[data-keyboard-focus="true"]:focus {
     border-radius: 2px !important;
 }
 
-  
+/*Griggorii lock mouse delete scroll LGPL + CC BY-SA 4.0*/
 :root {
-    height: 100% !important;
-    overflow: hidden !important;
+    /*height: 100% !important;*/
+    /*overflow: hidden !important;*/
 }
 
 :root {
@@ -911,11 +911,12 @@ button.link[data-keyboard-focus="true"]:focus {
     --divider-border: 1px solid var(--divider-color) !important;
 }
 
+/*Griggorii lock mouse delete scroll LGPL + CC BY-SA 4.0*/
 body {
     height: 100% !important;
     width: 100% !important;
     position: relative !important;
-    overflow: hidden !important;
+    /*overflow: hidden !important;*/
     margin: 0 !important;
     cursor: default !important;
     font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
