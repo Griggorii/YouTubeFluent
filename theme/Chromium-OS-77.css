@@ -1,5 +1,5 @@
 /*Copyright css https://github.com/Griggorii/Chromium_OS_77 my modification build LGPL + CC BY-SA 4.0*/
-/*https://github.com/Griggorii/YouTubeFluent */
+/*https://github.com/Griggorii/YouTubeFluent*/
 input.dt-checkbox-themed {
     -webkit-appearance: none !important;
     margin: auto 5px auto 2px !important;
@@ -1191,7 +1191,7 @@ iframe.panel.extension {
 
  /*ui/inspectorSyntaxHighlightDark.css*/
 /*Copyright https://github.com/Griggorii/Chromium_OS_77*/
-/*https://github.com/Griggorii/YouTubeFluent */
+/*https://github.com/Griggorii/YouTubeFluent*/
  * found in the LICENSE file.
  
 
@@ -1687,20 +1687,23 @@ iframe.panel.extension {
 
  
 
+/*Copyright css https://github.com/Griggorii/Chromium_OS_77 my modification build LGPL + CC BY-SA 4.0*/
+/*https://github.com/Griggorii/YouTubeFluent*/
+/*Griggorii off lag*/
 div {
-    display: inline-block !important;
-    height: 14px !important;
-    vertical-align: middle !important;
-    white-space: nowrap !important;
-    padding: 1px 4px !important;
-    text-align: left !important;
-    font-size: 11px !important;
-    line-height: normal !important;
-    font-weight: bold !important;
-    text-shadow: none !important;
-    color: white !important;
-    margin-top: -1px !important;
-    border-radius: 7px !important;
+    /* /* display: inline-block !important; */
+    /* /* height: 14px !important; */
+    /* vertical-align: middle !important; */
+    /* white-space: nowrap !important; */
+    /* padding: 1px 4px !important; */
+    /* text-align: left !important; */
+    /* font-size: 11px !important; */
+    /* line-height: normal !important; */
+    /* font-weight: bold !important; */
+    /* text-shadow: none !important; */
+    /* color: white !important; */
+    /* margin-top: -1px !important; */
+    /* border-radius: 7px !important; */
 }
 
 div.verbose {
