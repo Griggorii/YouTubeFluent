@@ -529,6 +529,22 @@ ytd-thumbnail-overlay-toggle-button-renderer[use-expandable-tooltip][hovered] #l
   transition: transform 0.2s cubic-bezier(0.05,0,0,1) !important;
 }
 
+/*griggorii test animation equalizer*/
+ytd-thumbnail-overlay-equalizer {
+  display: inline-flexbox !important;
+  display: inline-flex !important;
+}
+#equalizer.ytd-thumbnail-overlay-equalizer {
+    width: 100% !important;
+    height: 100% !important;
+    transform: rotate(180deg) !important;
+}
+.bar.ytd-thumbnail-overlay-equalizer {
+  fill: #fff !important;
+  height: 70px !important;
+  width: 15px !important;
+}
+
 /* griggorii beta theme dark keyboard */
 .vk-box {
     height: auto !important;
