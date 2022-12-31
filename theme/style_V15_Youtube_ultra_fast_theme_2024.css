@@ -522,6 +522,13 @@ ytd-toggle-button-renderer.style-text[is-icon-button] {
 	/*background: rgba(50, 50, 50, 0.30) !important;*/
 }
 
+/*griggorii test animation*/
+ytd-thumbnail-overlay-toggle-button-renderer[use-expandable-tooltip][hovered] #label.ytd-thumbnail-overlay-toggle-button-renderer {
+  transform: translateX(0) !important;
+  background-color: var(--yt-spec-static-overlay-background-solid) !important;
+  transition: transform 0.2s cubic-bezier(0.05,0,0,1) !important;
+}
+
 /* griggorii beta theme dark keyboard */
 .vk-box {
     height: auto !important;
