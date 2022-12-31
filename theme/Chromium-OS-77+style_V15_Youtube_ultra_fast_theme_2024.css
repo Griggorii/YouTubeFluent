@@ -3547,9 +3547,10 @@ a.ytp-title-channel-logo {
 .ytd-video-preview, .ytp-small-mode {
 	border-radius: 18px !important;
 }
+/*griggorii change 18 to 12px*/
 /*movie player border radius / shadow*/
 #movie_player, .video-stream, .ytp-small-mode {
-	border-radius: 18px !important;
+	border-radius: 12px !important;
 	box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.5);
 }
 
