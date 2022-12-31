@@ -915,18 +915,18 @@ button.link[data-keyboard-focus="true"]:focus {
 
 /*Griggorii lock mouse delete scroll LGPL + CC BY-SA 4.0*/
 body {
-    height: 100% !important;
-    width: 100% !important;
-    position: relative !important;
+    /*height: 100% !important;*/
+    /*width: 100% !important;*/
+    /*position: relative !important;*/
     /*overflow: hidden !important;*/
-    margin: 0 !important;
-    cursor: default !important;
-    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
-    font-size: 12px !important;
-    tab-size: 4 !important;
+    /*margin: 0 !important;*/
+    /*cursor: default !important;*/
+    /*font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;*/
+    /*font-size: 12px !important;*/
+    /*tab-size: 4 !important;*/
     /*-webkit-user-select: none !important;*/
-    color: #222 !important;
-    background: white !important;
+    /*color: #222 !important;*/
+    /*background: white !important;*/
 }
 
 .platform-linux {
