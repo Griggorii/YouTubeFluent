@@ -513,6 +513,14 @@ ytd-toggle-button-renderer.style-text[is-icon-button] {
     color: #107516 !important;
 }
 
+/*right click info panel backdrop filter*/
+.ytp-popup, .html5-video-info-panel {
+	backdrop-filter: blur(0px) !important;
+	-webkit-backdrop-filter: blur(0px) !important;
+	border-radius: 24px !important;
+	/*background: rgba(50, 50, 50, 0.30) !important;*/
+}
+
 /* griggorii beta theme dark keyboard */
 .vk-box {
     height: auto !important;
