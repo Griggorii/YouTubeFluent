@@ -837,8 +837,9 @@ span[is=dt-icon-label] {
     background-color: #bbbbbb !important;
 }
 
+/*Griggorii highlighting test witch a system color default  LGPL + CC BY-SA 4.0*/
 ::selection {
-    background-color: #bbdefb !important;
+    /*background-color: #bbdefb !important;*/
 }
 
 .-theme-with-dark-background *::selection,
@@ -922,7 +923,7 @@ body {
     font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', 'Lucida Grande', sans-serif !important;
     font-size: 12px !important;
     tab-size: 4 !important;
-    -webkit-user-select: none !important;
+    /*-webkit-user-select: none !important;*/
     color: #222 !important;
     background: white !important;
 }
@@ -968,36 +969,36 @@ iframe.panel.extension {
 }
 
  
-.cm-js-keyword {color: hsl(310, 86%, 36%);}
-.cm-js-number {color: hsl(248, 100%, 41%);}
-.cm-js-comment {color: hsl(120, 100%, 23%); font-style: italic;}
-.cm-js-string {color: hsl(1, 80%, 43%);}
-.cm-js-string-2 {color: hsl(1, 99%, 39%);}
-.cm-js-atom {color: hsl(310, 86%, 36%);}
-.cm-js-def {color: hsl(240, 73%, 38%);}
-.cm-js-operator {color: hsl(27, 100%, 30%);}
-.cm-js-meta {color: hsl(27, 100%, 30%);}
-.cm-js-variable-2 {color: hsl(240, 73%, 38%);}
+.cm-js-keyword {color: hsl(310, 86%, 36%) !important;}
+.cm-js-number {color: hsl(248, 100%, 41%) !important;}
+.cm-js-comment {color: hsl(120, 100%, 23%); font-style: italic !important;}
+.cm-js-string {color: hsl(1, 80%, 43%) !important;}
+.cm-js-string-2 {color: hsl(1, 99%, 39%) !important;}
+.cm-js-atom {color: hsl(310, 86%, 36%) !important;}
+.cm-js-def {color: hsl(240, 73%, 38%) !important;}
+.cm-js-operator {color: hsl(27, 100%, 30%) !important;}
+.cm-js-meta {color: hsl(27, 100%, 30%) !important;}
+.cm-js-variable-2 {color: hsl(240, 73%, 38%) !important;}
 
-.cm-css-keyword { color: rgb(7, 144, 154);}
-.cm-css-number {color: rgb(50, 0, 255);}
-.cm-css-comment {color: rgb(0, 116, 0);}
-.cm-css-def {color: rgb(200, 0, 0);}
-.cm-css-meta {color: rgb(200, 0, 0);}
-.cm-css-atom {color: rgb(7, 144, 154);}
-.cm-css-string {color: rgb(7, 144, 154);}
-.cm-css-string-2 {color: rgb(7, 144, 154);}
-.cm-css-link {color: rgb(7, 144, 154);}
-.cm-css-variable {color: rgb(200, 0, 0);}
-.cm-css-variable-2 {color: rgb(0, 0, 128);}
-.cm-css-property, .webkit-css-property {color: rgb(200, 0, 0);}
+.cm-css-keyword { color: rgb(7, 144, 154) !important;}
+.cm-css-number {color: rgb(50, 0, 255) !important;}
+.cm-css-comment {color: rgb(0, 116, 0) !important;}
+.cm-css-def {color: rgb(200, 0, 0) !important;}
+.cm-css-meta {color: rgb(200, 0, 0) !important;}
+.cm-css-atom {color: rgb(7, 144, 154) !important;}
+.cm-css-string {color: rgb(7, 144, 154) !important;}
+.cm-css-string-2 {color: rgb(7, 144, 154) !important;}
+.cm-css-link {color: rgb(7, 144, 154) !important;}
+.cm-css-variable {color: rgb(200, 0, 0) !important;}
+.cm-css-variable-2 {color: rgb(0, 0, 128) !important;}
+.cm-css-property, .webkit-css-property {color: rgb(200, 0, 0) !important;}
 
-.cm-xml-meta {color: rgb(192, 192, 192);}
-.cm-xml-comment {color: rgb(35, 110, 37);}
-.cm-xml-string {color: rgb(26, 26, 166);}
-.cm-xml-tag {color: var(--dom-tag-name-color);}
-.cm-xml-attribute {color: rgb(153, 69, 0);}
-.cm-xml-link {color: #00e;}
+.cm-xml-meta {color: rgb(192, 192, 192) !important;}
+.cm-xml-comment {color: rgb(35, 110, 37) !important;}
+.cm-xml-string {color: rgb(26, 26, 166) !important;}
+.cm-xml-tag {color: var(--dom-tag-name-color) !important;}
+.cm-xml-attribute {color: rgb(153, 69, 0) !important;}
+.cm-xml-link {color: #00e !important;}
 
 :root {
     --dom-tag-name-color: rgb(136, 18, 128) !important;
@@ -1078,112 +1079,112 @@ iframe.panel.extension {
 }
 
 /* Default CodeMirror Theme */
-.cm-negative {color: #d44;}
-.cm-positive {color: #292;}
-.cm-header, .cm-strong {font-weight: bold;}
-.cm-em {font-style: italic;}
-.cm-link {text-decoration: underline;}
-.cm-strikethrough {text-decoration: line-through;}
+.cm-negative {color: #d44 !important;}
+.cm-positive {color: #292 !important;}
+.cm-header, .cm-strong {font-weight: bold !important;}
+.cm-em {font-style: italic !important;}
+.cm-link {text-decoration: underline !important;}
+.cm-strikethrough {text-decoration: line-through !important;}
 
-.cm-invalidchar {color: #f00;}
+.cm-invalidchar {color: #f00 !important;}
 
-.cm-header {color: blue;}
-.cm-quote {color: #090;}
+.cm-header {color: blue !important;}
+.cm-quote {color: #090 !important;}
 
-.cm-keyword {color: #708;}
-.cm-atom {color: #219;}
-.cm-number {color: #164;}
-.cm-def {color: #00f;}
-.cm-variable-2 {color: #05a;}
-.cm-variable-3, .cm-type {color: #085;}
-.cm-comment {color: #a50;}
-.cm-string {color: #a11;}
-.cm-string-2 {color: #f50;}
-.cm-meta {color: #555;}
-.cm-qualifier {color: #555;}
-.cm-builtin {color: #30a;}
-.cm-bracket {color: #997;}
-.cm-tag {color: #170;}
-.cm-attribute {color: #00c;}
-.cm-hr {color: #999;}
-.cm-link {color: #00c;}
+.cm-keyword {color: #708 !important;}
+.cm-atom {color: #219 !important;}
+.cm-number {color: #164 !important;}
+.cm-def {color: #00f !important;}
+.cm-variable-2 {color: #05a !important;}
+.cm-variable-3, .cm-type {color: #085 !important;}
+.cm-comment {color: #a50 !important;}
+.cm-string {color: #a11 !important;}
+.cm-string-2 {color: #f50 !important;}
+.cm-meta {color: #555 !important;}
+.cm-qualifier {color: #555 !important;}
+.cm-builtin {color: #30a !important;}
+.cm-bracket {color: #997 !important;}
+.cm-tag {color: #170 !important;}
+.cm-attribute {color: #00c !important;}
+.cm-hr {color: #999 !important;}
+.cm-link {color: #00c !important;}
 
-.cm-error {color: #f00;}
+.cm-error {color: #f00 !important;}
 
  
-.cm-js-atom{color:rgb(161, 247, 181);}
-.cm-js-attribute{color:rgb(97, 148, 198);}
-.cm-js-builtin{color:rgb(159, 180, 214);}
-.cm-js-comment{color:rgb(116, 116, 116);}
-.cm-js-def{color:var(--dom-tag-name-color);}
-.cm-js-keyword{color:rgb(154, 127, 213);}
-.cm-js-link{color:rgb(159, 180, 214);}
-.cm-js-meta{color:rgb(221, 251, 85);}
-.cm-js-number{color:rgb(161, 247, 181);}
-.cm-js-operator{color:rgb(210, 192, 87);}
-.cm-js-property{color:rgb(210, 192, 87);}
-.cm-js-string{color:rgb(242, 139, 84);}
-.cm-js-string-2{color:rgb(242, 139, 84);}
-.cm-js-tag{color:var(--dom-tag-name-color);}
-.cm-js-variable{color:rgb(217, 217, 217);}
-.cm-js-variable-2{color:rgb(217, 217, 217);}
-.cm-atom{color:rgb(161, 247, 181);}
-.cm-comment{color:rgb(116, 116, 116);}
-.cm-variable{color:rgb(217, 217, 217);}
-.cm-string{color:rgb(242, 139, 84);}
-.cm-keyword{color:rgb(154, 127, 213);}
-.cm-number{color:rgb(161, 247, 181);}
-.cm-operator{color:rgb(210, 192, 87);}
-.cm-css-atom{color:rgb(217, 217, 217);}
-.cm-css-builtin{color:rgb(255, 163, 79);}
-.cm-css-def{color:rgb(255, 163, 79);}
-.cm-css-comment{color:rgb(116, 116, 116);}
-.cm-css-meta{color:rgb(132, 240, 255);}
-.cm-css-number{color:rgb(217, 217, 217);}
-.cm-css-operator{color:rgb(217, 217, 217);}
-.cm-css-property{color:rgb(132, 240, 255);}
-.cm-css-qualifier{color:rgb(255, 163, 79);}
-.cm-css-string{color:rgb(231, 194, 111);}
-.cm-css-string-2{color:rgb(217, 217, 217);}
-.cm-css-tag{color:rgb(255, 163, 79);}
-.cm-css-variable{color:rgb(255, 163, 79);}
-.cm-css-variable-2{color:rgb(255, 163, 79);}
-.cm-xml-comment{color:rgb(137, 137, 137);}
-.cm-xml-error{color:rgb(198, 95, 95);}
-.cm-xml-string{color:rgb(242, 151, 102);}
-.cm-xml-tag{color:var(--dom-tag-name-color);}
-.cm-xml-attribute{color:var(--dom-attribute-name-color);}
-.cm-xml-link{color:rgb(231, 194, 111);}
+.cm-js-atom{color:rgb(161, 247, 181) !important;}
+.cm-js-attribute{color:rgb(97, 148, 198) !important;}
+.cm-js-builtin{color:rgb(159, 180, 214) !important;}
+.cm-js-comment{color:rgb(116, 116, 116) !important;}
+.cm-js-def{color:var(--dom-tag-name-color) !important;}
+.cm-js-keyword{color:rgb(154, 127, 213) !important;}
+.cm-js-link{color:rgb(159, 180, 214) !important;}
+.cm-js-meta{color:rgb(221, 251, 85) !important;}
+.cm-js-number{color:rgb(161, 247, 181) !important;}
+.cm-js-operator{color:rgb(210, 192, 87) !important;}
+.cm-js-property{color:rgb(210, 192, 87) !important;}
+.cm-js-string{color:rgb(242, 139, 84) !important;}
+.cm-js-string-2{color:rgb(242, 139, 84) !important;}
+.cm-js-tag{color:var(--dom-tag-name-color) !important;}
+.cm-js-variable{color:rgb(217, 217, 217) !important;}
+.cm-js-variable-2{color:rgb(217, 217, 217) !important;}
+.cm-atom{color:rgb(161, 247, 181) !important;}
+.cm-comment{color:rgb(116, 116, 116) !important;}
+.cm-variable{color:rgb(217, 217, 217) !important;}
+.cm-string{color:rgb(242, 139, 84) !important;}
+.cm-keyword{color:rgb(154, 127, 213) !important;}
+.cm-number{color:rgb(161, 247, 181) !important;}
+.cm-operator{color:rgb(210, 192, 87) !important;}
+.cm-css-atom{color:rgb(217, 217, 217) !important;}
+.cm-css-builtin{color:rgb(255, 163, 79) !important;}
+.cm-css-def{color:rgb(255, 163, 79) !important;}
+.cm-css-comment{color:rgb(116, 116, 116) !important;}
+.cm-css-meta{color:rgb(132, 240, 255) !important;}
+.cm-css-number{color:rgb(217, 217, 217) !important;}
+.cm-css-operator{color:rgb(217, 217, 217) !important;}
+.cm-css-property{color:rgb(132, 240, 255) !important;}
+.cm-css-qualifier{color:rgb(255, 163, 79) !important;}
+.cm-css-string{color:rgb(231, 194, 111) !important;}
+.cm-css-string-2{color:rgb(217, 217, 217) !important;}
+.cm-css-tag{color:rgb(255, 163, 79) !important;}
+.cm-css-variable{color:rgb(255, 163, 79) !important;}
+.cm-css-variable-2{color:rgb(255, 163, 79) !important;}
+.cm-xml-comment{color:rgb(137, 137, 137) !important;}
+.cm-xml-error{color:rgb(198, 95, 95) !important;}
+.cm-xml-string{color:rgb(242, 151, 102) !important;}
+.cm-xml-tag{color:var(--dom-tag-name-color) !important;}
+.cm-xml-attribute{color:var(--dom-attribute-name-color) !important;}
+.cm-xml-link{color:rgb(231, 194, 111) !important;}
 
-.webkit-html-attribute-name{color:var(--dom-attribute-name-color);}
-.webkit-html-attribute-value{color:rgb(242, 151, 102);}
-.webkit-html-comment{color:rgb(137, 137, 137);}
-.devtools-link{color:rgb(231, 194, 111);}
-.webkit-html-tag{color:var(--dom-tag-name-color);}
-.webkit-html-tag-name{color:var(--dom-tag-name-color);}
-.webkit-html-close-tag-name{color:var(--dom-tag-name-color);}
-.webkit-html-text-node{color:rgb(207, 208, 208);}
-.webkit-html-css-node{color:rgb(207, 208, 208);}
-.webkit-html-js-node{color:rgb(207, 208, 208);}
-.webkit-html-pseudo-element{color:rgb(93, 175, 215);}
-.webkit-css-property{color: rgb(53, 212, 199);}
+.webkit-html-attribute-name{color:var(--dom-attribute-name-color) !important;}
+.webkit-html-attribute-value{color:rgb(242, 151, 102) !important;}
+.webkit-html-comment{color:rgb(137, 137, 137) !important;}
+.devtools-link{color:rgb(231, 194, 111) !important;}
+.webkit-html-tag{color:var(--dom-tag-name-color) !important;}
+.webkit-html-tag-name{color:var(--dom-tag-name-color) !important;}
+.webkit-html-close-tag-name{color:var(--dom-tag-name-color) !important;}
+.webkit-html-text-node{color:rgb(207, 208, 208) !important;}
+.webkit-html-css-node{color:rgb(207, 208, 208) !important;}
+.webkit-html-js-node{color:rgb(207, 208, 208) !important;}
+.webkit-html-pseudo-element{color:rgb(93, 175, 215) !important;}
+.webkit-css-property{color: rgb(53, 212, 199) !important;}
 
-.cm-def{color:var(--dom-tag-name-color);}
-.cm-header{color:var(--dom-tag-name-color);}
-.cm-variable-2{color:rgb(217, 217, 217);}
+.cm-def{color:var(--dom-tag-name-color) !important;}
+.cm-header{color:var(--dom-tag-name-color) !important;}
+.cm-variable-2{color:rgb(217, 217, 217) !important;}
 
-.cm-variable-2 {color: #05a;}
-.cm-variable-3, .cm-type {color: rgb(93, 176, 215);}
-.cm-string {color: rgb(242, 139, 84);}
-.cm-meta {color: #555;}
-.cm-meta {color:rgb(221, 251, 85);}
-.cm-qualifier{color:rgb(255, 163, 79);}
-.cm-builtin{color:rgb(159, 180, 214);}
-.cm-bracket {color: #997;}
-.cm-tag{color:var(--dom-tag-name-color);}
-.cm-attribute{color:rgb(97, 148, 198);}
-.cm-hr {color: #999;}
-.cm-link{color:rgb(159, 180, 214);}
+.cm-variable-2 {color: #05a !important;}
+.cm-variable-3, .cm-type {color: rgb(93, 176, 215) !important;}
+.cm-string {color: rgb(242, 139, 84) !important;}
+.cm-meta {color: #555 !important;}
+.cm-meta {color:rgb(221, 251, 85) !important;}
+.cm-qualifier{color:rgb(255, 163, 79) !important;}
+.cm-builtin{color:rgb(159, 180, 214) !important;}
+.cm-bracket {color: #997 !important;}
+.cm-tag{color:var(--dom-tag-name-color) !important;}
+.cm-attribute{color:rgb(97, 148, 198) !important;}
+.cm-hr {color: #999 !important;}
+.cm-link{color:rgb(159, 180, 214) !important;}
 
 :root {
     --dom-tag-name-color: rgb(93, 176, 215) !important;
