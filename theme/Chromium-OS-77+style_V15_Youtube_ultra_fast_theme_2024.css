@@ -3928,6 +3928,39 @@ ytd-thumbnail-overlay-equalizer {
   width: 15px !important;
 }
 
+/*griggorii test native player 2023 find resultat*/
+    /* transform: translateX(0px); */
+}
+.ytp-scrubber-container {
+}
+.ytp-inline-preview-scrim-clear {
+    /* background-image: linear-gradient(to bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,.6) 100%); */
+}
+.ytp-inline-preview-scrim {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* -webkit-transition: opacity .2s cubic-bezier(0.4,0,0.2,1) .1s; */
+    /* transition: opacity .2s cubic-bezier(0.4,0,0.2,1) .1s; */
+    opacity: 1 !important;
+    display: -moz-flexbox !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: flex !important;
+    -webkit-align-items: center !important;
+    -webkit-box-align: center !important;
+    -moz-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -moz-justify-content: center !important;
+    -webkit-justify-content: center !important;
+    -webkit-box-pack: center !important;
+    -moz-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
 /* griggorii beta theme dark keyboard */
 .vk-box {
     height: auto !important;
