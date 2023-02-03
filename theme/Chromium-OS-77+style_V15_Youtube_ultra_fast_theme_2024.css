@@ -3778,9 +3778,9 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
     border-radius: 24px !important;
 }
 
-/*live chat info card*/
+/*live chat info card border radius 2023 griggorii change 24>12*/
 #card.yt-live-chat-viewer-engagement-message-renderer {
-	border-radius: 24px !important;
+	border-radius: 12px !important;
 }
 /*griggorii filter text fix*/
 #label.ytd-search-filter-renderer {
