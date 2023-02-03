@@ -3509,9 +3509,9 @@ ytd-button-renderer #button.ytd-button-renderer * {
 .ytp-ce-expanding-image {
 	border-radius: 24px !important;
 }
-/*gaming info container border radius*/
+/*gaming info container border radius 2023 change 24>12*/
 ytd-rich-metadata-renderer.style-scope.ytd-rich-metadata-row-renderer {
-	border-radius: 24px !important;
+	border-radius: 12px !important;
 }
 /*playlist highlighter border radius*/
 ytd-playlist-panel-video-renderer#playlist-items {
