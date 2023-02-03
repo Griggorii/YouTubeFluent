@@ -584,6 +584,38 @@ ytd-thumbnail-overlay-equalizer {
 	background-color: #0000001d !important;
 }
 
+/* griggorii theme dark find content copy old my config V14 */
+/*searchbar predictions highlighter border radius*/
+.gsfs {
+	border-radius: 24px !important;
+	color: #e4e4e4 !important;
+}
+/*searchbar predictions backdrop filter*/
+.sbdd_b, .sbsb_a {
+	margin-top: 5px !important;
+	border: 0 !important;
+	background: rgba(50, 50, 50, 0.3) !important;
+	border-radius: 24px !important;
+	backdrop-filter: blur(10px) !important;
+	-webkit-backdrop-filter: blur(10px) !important;
+}
+.sbpqs_a{
+	color: #BBBBBB !important;
+}
+/*Dark search text sbsb_d{
+	background: rgba(20, 20, 20, 0.3) !important;
+}
+*/
+/*Light search text*/
+.sbsb_d {
+	background: rgba(255, 255, 255, 0.1) !important;
+}
+/*searchbar text bottom right*/
+.sbfl_a, .sbfl_b {
+	color: rgba(255, 255, 255, 0.5) !important;
+	background: transparent !important;
+}
+
 /*griggorii: When the transmission icon is no longer trimmed due to rounding due to rounding and is shown completely copy port to in 15 my old config V14*/
 #meta.ytd-video-preview {
 	border-radius: 0px !important;
