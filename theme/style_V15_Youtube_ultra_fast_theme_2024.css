@@ -584,6 +584,11 @@ ytd-thumbnail-overlay-equalizer {
 	background-color: #0000001d !important;
 }
 
+/*griggorii: When the transmission icon is no longer trimmed due to rounding due to rounding and is shown completely copy port to in 15 my old config V14*/
+#meta.ytd-video-preview {
+	border-radius: 0px !important;
+}
+
 /* griggorii beta theme dark keyboard */
 .vk-box {
     height: auto !important;
