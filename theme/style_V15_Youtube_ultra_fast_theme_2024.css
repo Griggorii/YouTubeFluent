@@ -588,6 +588,10 @@ ytd-thumbnail-overlay-equalizer {
 #meta.ytd-video-preview {
 	border-radius: 0px !important;
 }
+/*video title border radius fix*/
+#video-title {
+	border-radius: 0px !important;
+}
 
 /* griggorii beta theme dark keyboard */
 .vk-box {
