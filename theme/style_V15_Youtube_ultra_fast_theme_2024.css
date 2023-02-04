@@ -644,10 +644,19 @@ ytd-thumbnail-overlay-equalizer {
 	background: transparent !important;
 }
 
-/*griggorii add shadow logu youtube*/
+/*griggorii add shadow logo youtube*/
 yt-icon.ytd-logo {
     border-radius: 24px !important;
     box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
+}
+
+/*griggorii fix style*/
+canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6, hr, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0px !important;
+    margin-top: 1px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
 }
 
 /*griggorii: When the transmission icon is no longer trimmed due to rounding due to rounding and is shown completely copy port to in 15 my old config V14*/
