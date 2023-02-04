@@ -500,10 +500,6 @@ ytd-comments-entry-point-header-renderer:not([modern-metapanel]) {
     border-radius: 24px !important;
 }
 
-#voice-search-button.ytd-masthead {
-	border-radius: 24px !important;
-	background-color: #ffffff00 !important;
-}
 /*thumbnail border radius*/
 a#thumbnail {
 	border-radius: 8px !important;
@@ -608,9 +604,8 @@ ytd-thumbnail-overlay-equalizer {
 #voice-search-button.ytd-masthead {
 	border-radius: 24px !important;
 	background-color: #0000000d !important;
-	box-shadow: 1px 1px 1px !important;
+	box-shadow: 1px 1px 1px #00 !important;
 }
-
 
 /* griggorii theme dark find content copy old my config V14 */
 /*searchbar predictions highlighter border radius*/
