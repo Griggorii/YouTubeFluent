@@ -80,6 +80,7 @@ ytd-button-renderer #button.ytd-button-renderer * {
 .badge-style-type-live-now-alternate.ytd-badge-supported-renderer {
     background: #085d16 !important;
     color: #ffffff !important;
+    box-shadow: 2px 1px 2px rgb(0 0 0/40%) !important;
 }
 /*griggorii new live red icon*/
 .badge-style-type-simple.ytd-badge-supported-renderer {
