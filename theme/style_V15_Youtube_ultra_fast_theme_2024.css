@@ -4,11 +4,13 @@
 /* griggorii fix test important transparent delete all parametr lag change dark theme or light */
 yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     border-radius: 24px !important;
+    box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
 }
 
    /*griggorii button outline | knopka vxoda otvetov itd*/
 .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
-color: var(--yt-spec-text-primary-inverse) !important;
+    color: var(--yt-spec-text-primary-inverse) !important;
+    box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
 }
 .yt-spec-button-shape-next--size-m {
     padding: 0 16px !important;
@@ -16,6 +18,7 @@ color: var(--yt-spec-text-primary-inverse) !important;
     font-size: 14px !important;
     line-height: 36px !important;
     /*border-radius: 24px !important;*/
+    box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
 }
 .yt-spec-button-shape-next {
     position: relative !important;
@@ -28,6 +31,7 @@ color: var(--yt-spec-text-primary-inverse) !important;
     outline-width: 0 !important;
     box-sizing: border-box !important;
     /*background: none !important;*/
+    box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
 }
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
     color: #0066ff !important;
@@ -81,6 +85,7 @@ ytd-button-renderer #button.ytd-button-renderer * {
 .badge-style-type-simple.ytd-badge-supported-renderer {
     background: #d00808 !important;
     color: #ffffff !important;
+    box-shadow: 2px 1px 2px rgb(0 0 0/40%) !important;
 }
 /*channel name border radius fix*/
 #container.ytd-channel-name {
@@ -213,10 +218,10 @@ img#img {
         word-wrap: break-word: !important;
         display: flex: !important;
         flex: 100%: !important;
-        box-shadow: !important;
+	box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
+	/*background-color: #0000000d !important;*/
 	border: none !important;
 	border-radius: 18px 0px 0px 18px !important;
-        background-color: #332c2c21 !important;
 
 }
 /*search icon background color editor griggorii*/
@@ -224,10 +229,30 @@ img#img {
         word-wrap: break-word: !important;
         display: flex: !important;
         flex: 100%: !important;
+	border-radius: 0px 18px 18px 0px !important;
+	border: none !important;
+	box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
+}
+
+/*old 2022 borderless , color search bar editor griggorii*/
+/*#container.ytd-searchbox {
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
+        box-shadow: !important;
+	border: none !important;
+	border-radius: 18px 0px 0px 18px !important;
+        background-color: #332c2c21 !important;
+}*/
+/*old 2022 search icon background color editor griggorii*/
+/*#search-icon-legacy.ytd-searchbox {
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
         box-shadow: !important;
 	border-radius: 0px 18px 18px 0px !important;
 	background-color: #332c2c21 !important;
-}
+}*/
 
  /* griggorii test effect form shadow button */
 .yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {
@@ -581,8 +606,10 @@ ytd-thumbnail-overlay-equalizer {
 /*griggorii microfone background color copy port to in 15 my old config V14*/
 #voice-search-button.ytd-masthead {
 	border-radius: 24px !important;
-	background-color: #0000001d !important;
+	background-color: #0000000d !important;
+	box-shadow: 1px 1px 1px !important;
 }
+
 
 /* griggorii theme dark find content copy old my config V14 */
 /*searchbar predictions highlighter border radius*/
@@ -614,6 +641,12 @@ ytd-thumbnail-overlay-equalizer {
 .sbfl_a, .sbfl_b {
 	color: rgba(255, 255, 255, 0.5) !important;
 	background: transparent !important;
+}
+
+/*griggorii add shadow logu youtube*/
+yt-icon.ytd-logo {
+    border-radius: 24px !important;
+    box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
 }
 
 /*griggorii: When the transmission icon is no longer trimmed due to rounding due to rounding and is shown completely copy port to in 15 my old config V14*/
