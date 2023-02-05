@@ -264,9 +264,14 @@ img#img {
 	background-color: #332c2c21 !important;
 }*/
 
- /* griggorii test effect form shadow button */
-.yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill {
+  /* griggorii test effect form shadow button | в 2023 пробное подключение hover разгон вентилятора при наведении кнопку /сохранить/показать видео итд */
+.yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill:hover {
     background-color: #0303030d !important;
+	top: 0px !important;
+	transform: scale(1.13) !important;
+        transition: 0.9s !important;
+        display: block !important;
+        z-index:99 !important;
 }
 .yt-spec-touch-feedback-shape__fill {
     /* opacity: 0; */
