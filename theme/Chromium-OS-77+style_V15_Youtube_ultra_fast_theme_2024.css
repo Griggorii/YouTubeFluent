@@ -3394,6 +3394,10 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
 .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
     color: var(--yt-spec-text-primary-inverse) !important;
     box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
+    margin-top: 10px !important;
+    transform: scale(0.9,1,0) !important;
+    transition: 0.9s !important;
+    z-index:99 !important; 
 }
 .yt-spec-button-shape-next--size-m {
     top: -0.9px !important;
