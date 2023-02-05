@@ -434,7 +434,13 @@ span.ytd-thumbnail-overlay-loading-preview-renderer{
     background-color: #c00 !important;
 }
 .ytp-sb-subscribe, .ytp-sb-unsubscribe {
-    border-radius: 24px !important;
+    border-radius: 18px !important;
+    font-size: 12px !important;
+    letter-spacing: .007px !important;
+    line-height: 16px !important;
+    padding: 10px 14px !important;
+    /*font-family: "Roboto","Arial",sans-serif !important;*/
+    box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
 }
 
 /*live chat info card border radius 2023 griggorii change 24>12*/
