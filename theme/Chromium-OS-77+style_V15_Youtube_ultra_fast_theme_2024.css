@@ -3656,8 +3656,8 @@ img#img {
 	border-radius: 18px !important;
 }
 
-   /* griggorii transparent theme dark test hsla */
-html[system-icons][dark], html[system-icons] [dark] {
+   /* griggorii transparent theme dark test hsla , в  2023 гугл вроде взял настройки по этому я решил выключить что бы не вызывало багов на дарковой теме в виде элементов становящимеся белыми при наведении мышкой на их элемент */
+ /* html[system-icons][dark], html[system-icons] [dark] {
     --yt-spec-icon-inactive: #fff !important;
     --yt-spec-icon-disabled: #717171 !important;
     --yt-spec-brand-icon-inactive: #fff !important;
@@ -3692,14 +3692,16 @@ html[dark], [dark] {
     --ytd-searchbox-background: hsl(0, 0%, 7%) !important;
     --ytd-searchbox-text-color: hsla(0, 100%, 100%, 0.88) !important;
 }
-/*thumbnail scale effect griggorii + 15 default scale 1.05 */
+
+/*thumbnail scale effect griggorii + 15 default scale 1.05 , 2023 внесено изменение top: 0px */
 ytd-thumbnail:hover, #thumbnail.ytd-playlist-thumbnail:hover, .ytp-show-tiles .ytp-videowall-still:hover {
+	top: 0px !important;
 	transform: scale(1.13) !important;
         transition: 0.9s !important;
         display: block !important;
         z-index:99 !important; 
-
 }
+
 /*channel menu item border radius*/
 /*fix test griggorii https://youtu.be/bB7KLiyhKuA?t=89 2px https://github.com/Griggorii/YouTubeFluent/edit/main/theme */
 ytd-account-item-renderer.style-scope.ytd-account-item-section-renderer, paper-item.list-item.style-scope.ytd-account-settings {
