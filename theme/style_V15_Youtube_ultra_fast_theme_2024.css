@@ -13,12 +13,17 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
 }
 .yt-spec-button-shape-next--size-m {
-    padding: 0 16px !important;
+    top: -0.9px !important;
+    z-index: 99 !important;
+    padding: 0 14px !important;
     /*height: 36px !important;*/
     font-size: 14px !important;
-    line-height: 36px !important;
+    line-height: 12px !important;
     /*border-radius: 24px !important;*/
     box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
+}
+#bottom-row.ytd-watch-metadata {
+    margin-top: 9px !important;
 }
 .yt-spec-button-shape-next {
     position: relative !important;
@@ -650,9 +655,9 @@ yt-icon.ytd-logo {
     margin-top: 0.5px !important;
 }
 
-/*griggorii refix style*/
-div {
-    margin-top: 0.5px !important;
+/*griggorii refix style удалено и было добавлено другое решение top: -0.9px в раздел .yt-spec-button-shape-next--size-m  и создан новый раздел bottom-row.ytd-watch-metadata, такое действие вносило изменение в ползунок громкости медиаплеера ютуба и не давало открыться полностью видео во весь экран оставляя панель поиска на верху*/
+/*div {
+    /*margin-top: 0.5px !important;*/
 }
 
 /*griggorii: When the transmission icon is no longer trimmed due to rounding due to rounding and is shown completely copy port to in 15 my old config V14*/
