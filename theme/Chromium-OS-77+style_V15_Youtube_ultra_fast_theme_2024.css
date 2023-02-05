@@ -3647,7 +3647,7 @@ img#img {
 	background-color: #332c2c21 !important;
 }*/
 
-  /* griggorii test effect form shadow button | в 2023 пробное подключение hover разгон вентилятора при наведении кнопку /сохранить/показать видео итд */
+  /* griggorii test effect form shadow button | в 2023 пробное подключение hover разгон вентилятора при наведении на хидер кнопку /сохранить/показать видео итд */
 .yt-spec-touch-feedback-shape--touch-response .yt-spec-touch-feedback-shape__fill:hover {
     background-color: #0303030d !important;
 	top: 0px !important;
