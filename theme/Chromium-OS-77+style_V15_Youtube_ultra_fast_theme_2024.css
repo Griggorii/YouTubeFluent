@@ -3437,6 +3437,15 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     border-color: transparent !important;
 }
 
+/*griggorii: When the transmission icon is no longer trimmed due to rounding due to rounding and is shown completely copy port to in 15 my old config V14*/
+#meta.ytd-video-preview {
+	border-radius: 0px !important;
+}
+/*video title border radius fix*/
+#video-title {
+	border-radius: 0px !important;
+}
+
 /* griggorii color comment or close player */
 .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text{
     color: #0066ff !important;
@@ -4059,15 +4068,6 @@ yt-icon.ytd-logo {
 /*griggorii refix style удалено и было добавлено другое решение top: -0.9px в раздел .yt-spec-button-shape-next--size-m  и создан новый раздел bottom-row.ytd-watch-metadata, такое действие вносило изменение в ползунок громкости медиаплеера ютуба и не давало открыться полностью видео во весь экран оставляя панель поиска на верху*/
 /*div {
     /*margin-top: 0.5px !important;*/
-}
-
-/*griggorii: When the transmission icon is no longer trimmed due to rounding due to rounding and is shown completely copy port to in 15 my old config V14*/
-#meta.ytd-video-preview {
-	border-radius: 0px !important;
-}
-/*video title border radius fix*/
-#video-title {
-	border-radius: 0px !important;
 }
 
 /* griggorii beta theme dark keyboard */
