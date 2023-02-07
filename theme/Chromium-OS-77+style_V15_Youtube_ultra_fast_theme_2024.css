@@ -3537,17 +3537,17 @@ ytd-button-renderer #button.ytd-button-renderer * {
 ytd-rich-metadata-renderer.style-scope.ytd-rich-metadata-row-renderer {
 	border-radius: 12px !important;
 }
-/*playlist highlighter border radius*/
+/*playlist highlighter border radius 2023 change 24 to 8px*/
 ytd-playlist-panel-video-renderer#playlist-items {
-	border-radius: 24px;
+	border-radius: 8px;
 }
-/*container border radius*/
+/*container border radius 2023 change 24 to 8px*/
 div#container {
-	border-radius: 24px !important;
+	border-radius: 8px !important;
 }
-/*playlist header border radius*/
+/*playlist header border radius 2023 change all 24 to 8px*/
 .header.style-scope.ytd-playlist-panel-renderer {
-	border-radius: 24px 24px 24px 24px !important;
+	border-radius: 8px 8px 8px 8px !important;
 }
 /*video (playlist) border radius*/
 ytd-playlist-video-renderer {
@@ -4020,7 +4020,6 @@ ytd-thumbnail-overlay-equalizer {
 	background-color: #0000000d !important;
 	box-shadow: 1px 1px 1px #00 !important;
 }
-
 
 /* griggorii theme dark find content copy old my config V14 */
 /*searchbar predictions highlighter border radius*/
