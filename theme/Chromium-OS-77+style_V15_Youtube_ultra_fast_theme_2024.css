@@ -3400,7 +3400,7 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     z-index:99 !important; 
 }
 .yt-spec-button-shape-next--size-m {
-    top: -0.9px !important;
+    top: -2px !important;
     z-index: 99 !important;
     padding: 0 14px !important;
     /*height: 36px !important;*/
@@ -4064,12 +4064,28 @@ yt-icon.ytd-logo {
     margin-top: 0.5px !important;
 }
 
-/*griggorii refix style удалено и было добавлено другое решение top: -0.9px в раздел .yt-spec-button-shape-next--size-m  и создан новый раздел bottom-row.ytd-watch-metadata, такое действие вносило изменение в ползунок громкости медиаплеера ютуба и не давало открыться полностью видео во весь экран оставляя панель поиска на верху*/
+/*griggorii refix style удалено и было добавлено другое решение top: -0.9px на сегодня 2px в раздел .yt-spec-button-shape-next--size-m  и создан новый раздел bottom-row.ytd-watch-metadata, такое действие вносило изменение в ползунок громкости медиаплеера ютуба и не давало открыться полностью видео во весь экран оставляя панель поиска на верху*/
 /*div {
     /*margin-top: 0.5px !important;*/
 }
 
-/* griggorii beta theme dark keyboard */
+/*griggorii beta 2023*/
+ytd-reel-player-header-renderer[is-expanded-overlay] {
+    /*color: var(--yt-spec-text-primary) !important;*/
+}
+ytd-reel-player-header-renderer {
+    /*color: var(--yt-spec-static-overlay-text-primary) !important;*/
+    padding: 72px 16px 16px 16px !important;
+    pointer-events: auto !important;
+    flex: 1 1 auto !important;
+    display: flexbox !important;
+    display: flex !important;
+    /* flex-direction: column; */
+}
+.yt-simple-endpoint.yt-formatted-string {
+    /* color: #065fd4 !important; */
+}
+
 .vk-box {
     height: auto !important;
     background-color: #282829 !important;
