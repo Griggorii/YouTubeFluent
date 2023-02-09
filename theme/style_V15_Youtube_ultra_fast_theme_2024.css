@@ -188,10 +188,10 @@ a.ytp-title-channel-logo {
 .ytd-video-preview, .ytp-small-mode {
 	border-radius: 18px !important;
 }
-/*griggorii change 18 to 12 new > 2023 to 8px*/
+/*griggorii change 18 to 12 new > 2023 to 8px , не подходит для мини плеера обратно 12 пока гугл не начнет работать совместно со мной ниче не выйдет в плане изменении и будут расхождения хотя 8px вроде отлично бы подошло*/
 /*movie player border radius / shadow*/
 #movie_player, .video-stream, .ytp-small-mode {
-	border-radius: 8px !important;
+	border-radius: 12px !important;
 	box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.5);
 }
 
