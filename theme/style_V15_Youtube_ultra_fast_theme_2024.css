@@ -7,7 +7,7 @@ yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
     box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
 }
 
-   /*griggorii button outline | knopka vxoda otvetov itd*/
+   /*griggorii button outline | knopka vxoda otvetov itd в 2023 в рамках экспериментальной программы добавлена функция через двоеточие : hover которая очень часто встречается в chromium os 77 билде в строку addhoveryt-spec-button-shape-next--outline addhover в описании это что бы программа не вырезала точную настройку спутав описание с алгоритмом по которому надо работать по скольку используется css язык*/
 .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
     color: var(--yt-spec-text-primary-inverse) !important;
     box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
@@ -630,6 +630,8 @@ ytd-thumbnail-overlay-equalizer {
     -ms-flex-pack: center !important;
     justify-content: center !important;
 }
+.ytp-inline-preview-scrim:.ytp-button:focus, .ytp-button  {
+}
 
 /*griggorii microfone background color copy port to in 15 my old config V14*/
 #voice-search-button.ytd-masthead {
@@ -686,7 +688,7 @@ yt-icon.ytd-logo {
     /*margin-top: 0.5px !important;*/
 }
 
-/*griggorii beta 2023*/
+/*griggorii test add setting shorts beta 2023*/
 ytd-reel-player-header-renderer[is-expanded-overlay] {
     /*color: var(--yt-spec-text-primary) !important;*/
 }
@@ -701,6 +703,12 @@ ytd-reel-player-header-renderer {
 }
 .yt-simple-endpoint.yt-formatted-string {
     /* color: #065fd4 !important; */
+}
+
+/*griggorii color text about name copy port to in 15 my old config V14*/
+a.yt-formatted-string {
+   color: #0066ff !important;
+   /*color: #ff8f00 !important;*/
 }
 
 .vk-box {
