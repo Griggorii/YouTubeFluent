@@ -3610,11 +3610,26 @@ ytd-guide-entry-renderer[active] {
     color: #c00 !important;
     background-color: transparent !important;
 }
+
+/*2023 img#img.style-scope.yt-img-shadow border radius griggorii 24px default 2 , default change lag short text 2>24*/
+img#img.style-scope.yt-img-shadow {
+	border-radius: 24px 24px 24px 24px !important;
+	/*border-radius: 24px !important;*/
+        word-wrap: break-word: !important;
+        display: flex: !important;
+        flex: 100%: !important;
+	border-radius: 24px !important;
+	box-shadow: 1px 2px 2px rgb(0 0 0/40%) !important;
+	margin-top: -2px !important;
+	margin-left: 0.5px !important;
+}
+/*Griggorii old как видите я заблокировал это символом  (/*)  и саму старую настройку перенес ниже не буду объяснять почему , но если вы поменяете и поставите эту блок настройку выше чем img#img.style-scope.yt-img-shadow то вернется старая настройка ниже все проба сделать с тенями img.style-scope.yt-img-shadow и единственное в чате img плохо отображаются иконки и они немного кривовато отображаются , но с тенями уже выглядит более живо*/
 /*thumbnail border radius griggorii 24px default 2 , default change lag short text 24>2*/
-img#img {
+/*img#img {
 	border-radius: 2px !important;
 	/*border-radius: 24px !important;*/
 }
+
 /*borderless , color search bar editor griggorii*/
 #container.ytd-searchbox {
         word-wrap: break-word: !important;
