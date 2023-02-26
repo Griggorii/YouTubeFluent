@@ -717,6 +717,26 @@ a.yt-formatted-string {
    /*color: #ff8f00 !important;*/
 }
 
+/*griggorii beta test short desktop comments side panel exit*/
+ytd-reel-video-renderer[is-watch-while-mode] {
+    display: flex !important;
+    justify-content: center !important;
+    right: 35% !important;
+}
+ytd-reel-video-renderer[enable-watch-while-engagement-panel] {
+    /*right: 0px;*/
+    transition: right 0.3s linear !important;
+}
+ytd-section-list-renderer[watch-while-engagement-panel] #contents.ytd-section-list-renderer {
+    overflow-y: auto !important;
+    /*scrollbar-color: transparent transparent;*/
+    /*scrollbar-width: thin;*/
+    /*-ms-scroll-chaining: none;*/
+    overscroll-behavior: contain !important;
+    overscroll-behavior-x: contain !important;
+    overscroll-behavior-y: contain !important;
+}
+
 .vk-box {
     height: auto !important;
     background-color: #282829 !important;
