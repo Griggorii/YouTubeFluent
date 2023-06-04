@@ -736,7 +736,7 @@ ytd-section-list-renderer[watch-while-engagement-panel] #contents.ytd-section-li
     overscroll-behavior-x: contain !important;
     overscroll-behavior-y: contain !important;
 }
-/*full | as in my operating system with a smart closing panel depicting user reactions  2023*/
+/*full | as in my operating system with a smart closing panel depicting user reactions  2023 | разработчикам на той стороне от griggorii 2px 24px и 4px можно выставить в 0 что бы размер адаптировался под любое разрешение как пример телевизоры с очень большой диоганалью итд */
 yt-image.yt-reaction-control-panel-button-view-model {
     display: block !important;
     line-height: 0 !important;
