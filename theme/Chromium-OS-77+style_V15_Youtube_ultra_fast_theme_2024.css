@@ -4119,6 +4119,70 @@ ytd-section-list-renderer[watch-while-engagement-panel] #contents.ytd-section-li
     overscroll-behavior-x: contain !important;
     overscroll-behavior-y: contain !important;
 }
+/*full | as in my operating system with a smart closing panel depicting user reactions  2023*/
+yt-image.yt-reaction-control-panel-button-view-model {
+    display: block !important;
+    line-height: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    margin: 4px !important;
+    margin-top: 4px !important;
+    margin-right: 4px !important;
+    margin-bottom: 4px !important;
+    margin-left: 4px !important;
+}
+button.yt-reaction-control-panel-button-view-model {
+    padding: 2px !important;
+    padding-top: 2px !important;
+    padding-right: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 2px !important;
+    border: none !important;
+    border-top-color: initial !important;
+    border-top-style: none !important;
+    border-top-width: initial !important;
+    border-right-color: initial !important;
+    border-right-style: none !important;
+    border-right-width: initial !important;
+    border-bottom-color: initial !important;
+    border-bottom-style: none !important;
+    border-bottom-width: initial !important;
+    border-left-color: initial !important;
+    border-left-style: none !important;
+    border-left-width: initial !important;
+    border-image-source: initial !important;
+    border-image-slice: initial !important;
+    border-image-width: initial !important;
+    border-image-outset: initial !important;
+    border-image-repeat: initial !important;
+    background: none !important;
+    background-image: none !important;
+    background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+    background-repeat-x: initial !important;
+    background-repeat-y: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: initial !important;
+    cursor: pointer !important;
+}
+
+/*mini | as in my operating system with a smart closing panel depicting user reactions  2023*/
+/*yt-image.yt-reaction-control-panel-button-view-model {
+    display: block !important;
+    line-height: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    margin: 4px !important;
+}*/
+/*button.yt-reaction-control-panel-button-view-model {
+    padding: 2px !important;
+    border: none !important;
+    background: none !important;
+    cursor: pointer !important;
+}*/
 
 .vk-box {
     height: auto !important;
