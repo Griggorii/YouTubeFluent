@@ -238,6 +238,13 @@ img#img.style-scope.yt-img-shadow {
 	/*margin-left: 0.5px !important;*/
 }
 
+/*2023 последнее изменение 02.08.2023 если что не так заблокировать*/
+yt-img-shadow[object-fit=FILL] img.yt-img-shadow, yt-img-shadow[fit] img.yt-img-shadow {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
 /*borderless , color search bar editor griggorii*/
 #container.ytd-searchbox {
         word-wrap: break-word: !important;
